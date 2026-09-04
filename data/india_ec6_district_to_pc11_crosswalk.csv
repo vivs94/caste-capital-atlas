@@ -1,0 +1,643 @@
+ec_state_code,ec_state_name,ec_district_code,ec_district_name,ec_normalized_name,ddi_total_cases,ddi_source_file,pc11_state_id,pc11_district_id,pc11_district_name,map_state_code,map_state_name,pc11_normalized_name,match_method,match_score
+01,Jammu and Kashmir,0101,Kupwara,kupwara,22483,EC6A_ST01_JAMMU_AND_KASHMIR,01,001,Kupwara,01,Jammu and Kashmir,kupwara,normalized_name,1.000
+01,Jammu and Kashmir,0102,Badgam,badgam,45425,EC6A_ST01_JAMMU_AND_KASHMIR,01,002,Badgam,01,Jammu and Kashmir,badgam,normalized_name,1.000
+01,Jammu and Kashmir,0103,Leh(Ladakh),leh,8194,EC6A_ST01_JAMMU_AND_KASHMIR,01,003,Leh(Ladakh),01,Jammu and Kashmir,leh,normalized_name,1.000
+01,Jammu and Kashmir,0104,Kargil,kargil,4589,EC6A_ST01_JAMMU_AND_KASHMIR,01,004,Kargil,01,Jammu and Kashmir,kargil,normalized_name,1.000
+01,Jammu and Kashmir,0105,Punch,punch,12689,EC6A_ST01_JAMMU_AND_KASHMIR,01,005,Punch,01,Jammu and Kashmir,punch,normalized_name,1.000
+01,Jammu and Kashmir,0106,Rajouri,rajouri,16833,EC6A_ST01_JAMMU_AND_KASHMIR,01,006,Rajouri,01,Jammu and Kashmir,rajouri,normalized_name,1.000
+01,Jammu and Kashmir,0107,Kathua,kathua,22680,EC6A_ST01_JAMMU_AND_KASHMIR,01,007,Kathua,01,Jammu and Kashmir,kathua,normalized_name,1.000
+01,Jammu and Kashmir,0108,Baramula,baramula,45084,EC6A_ST01_JAMMU_AND_KASHMIR,01,008,Baramula,01,Jammu and Kashmir,baramula,normalized_name,1.000
+01,Jammu and Kashmir,0109,Bandipore,bandipore,11004,EC6A_ST01_JAMMU_AND_KASHMIR,01,009,Bandipore,01,Jammu and Kashmir,bandipore,normalized_name,1.000
+01,Jammu and Kashmir,0110,Srinagar,srinagar,67553,EC6A_ST01_JAMMU_AND_KASHMIR,01,010,Srinagar,01,Jammu and Kashmir,srinagar,normalized_name,1.000
+01,Jammu and Kashmir,0111,Ganderbal,ganderbal,9468,EC6A_ST01_JAMMU_AND_KASHMIR,01,011,Ganderbal,01,Jammu and Kashmir,ganderbal,normalized_name,1.000
+01,Jammu and Kashmir,0112,Pulwama,pulwama,25109,EC6A_ST01_JAMMU_AND_KASHMIR,01,012,Pulwama,01,Jammu and Kashmir,pulwama,normalized_name,1.000
+01,Jammu and Kashmir,0113,Shupiyan,shupiyan,9008,EC6A_ST01_JAMMU_AND_KASHMIR,01,013,Shupiyan,01,Jammu and Kashmir,shupiyan,normalized_name,1.000
+01,Jammu and Kashmir,0114,Anantnag,anantnag,44789,EC6A_ST01_JAMMU_AND_KASHMIR,01,014,Anantnag,01,Jammu and Kashmir,anantnag,normalized_name,1.000
+01,Jammu and Kashmir,0115,Kulgam,kulgam,20860,EC6A_ST01_JAMMU_AND_KASHMIR,01,015,Kulgam,01,Jammu and Kashmir,kulgam,normalized_name,1.000
+01,Jammu and Kashmir,0116,Doda,doda,8919,EC6A_ST01_JAMMU_AND_KASHMIR,01,016,Doda,01,Jammu and Kashmir,doda,normalized_name,1.000
+01,Jammu and Kashmir,0117,Ramban,ramban,6182,EC6A_ST01_JAMMU_AND_KASHMIR,01,017,Ramban,01,Jammu and Kashmir,ramban,normalized_name,1.000
+01,Jammu and Kashmir,0118,Kishtwar,kishtwar,8393,EC6A_ST01_JAMMU_AND_KASHMIR,01,018,Kishtwar,01,Jammu and Kashmir,kishtwar,normalized_name,1.000
+01,Jammu and Kashmir,0119,Udhampur,udhampur,18005,EC6A_ST01_JAMMU_AND_KASHMIR,01,019,Udhampur,01,Jammu and Kashmir,udhampur,normalized_name,1.000
+01,Jammu and Kashmir,0120,Reasi,reasi,10823,EC6A_ST01_JAMMU_AND_KASHMIR,01,020,Reasi,01,Jammu and Kashmir,reasi,normalized_name,1.000
+01,Jammu and Kashmir,0121,Jammu,jammu,68636,EC6A_ST01_JAMMU_AND_KASHMIR,01,021,Jammu,01,Jammu and Kashmir,jammu,normalized_name,1.000
+01,Jammu and Kashmir,0122,Samba,samba,15223,EC6A_ST01_JAMMU_AND_KASHMIR,01,022,Samba,01,Jammu and Kashmir,samba,normalized_name,1.000
+02,Himachal Pradesh,0201,Chamba,chamba,20722,EC6A_ST02_HIMACHAL_PRADESH,02,023,Chamba,02,Himachal Pradesh,chamba,normalized_name,1.000
+02,Himachal Pradesh,0202,Kangra,kangra,104474,EC6A_ST02_HIMACHAL_PRADESH,02,024,Kangra,02,Himachal Pradesh,kangra,normalized_name,1.000
+02,Himachal Pradesh,0203,Lahul & Spiti,lahul and spiti,3118,EC6A_ST02_HIMACHAL_PRADESH,02,025,Lahul & Spiti,02,Himachal Pradesh,lahul and spiti,normalized_name,1.000
+02,Himachal Pradesh,0204,Kullu,kullu,33254,EC6A_ST02_HIMACHAL_PRADESH,02,026,Kullu,02,Himachal Pradesh,kullu,normalized_name,1.000
+02,Himachal Pradesh,0205,Mandi,mandi,57324,EC6A_ST02_HIMACHAL_PRADESH,02,027,Mandi,02,Himachal Pradesh,mandi,normalized_name,1.000
+02,Himachal Pradesh,0206,Hamirpur,hamirpur,31125,EC6A_ST02_HIMACHAL_PRADESH,02,028,Hamirpur,02,Himachal Pradesh,hamirpur,normalized_name,1.000
+02,Himachal Pradesh,0207,Una,una,26893,EC6A_ST02_HIMACHAL_PRADESH,02,029,Una,02,Himachal Pradesh,una,normalized_name,1.000
+02,Himachal Pradesh,0208,Bilaspur,bilaspur,24542,EC6A_ST02_HIMACHAL_PRADESH,02,030,Bilaspur,02,Himachal Pradesh,bilaspur,normalized_name,1.000
+02,Himachal Pradesh,0209,Solan,solan,40293,EC6A_ST02_HIMACHAL_PRADESH,02,031,Solan,02,Himachal Pradesh,solan,normalized_name,1.000
+02,Himachal Pradesh,0210,Sirmaur,sirmaur,23122,EC6A_ST02_HIMACHAL_PRADESH,02,032,Sirmaur,02,Himachal Pradesh,sirmaur,normalized_name,1.000
+02,Himachal Pradesh,0211,Shimla,shimla,40835,EC6A_ST02_HIMACHAL_PRADESH,02,033,Shimla,02,Himachal Pradesh,shimla,normalized_name,1.000
+02,Himachal Pradesh,0212,Kinnaur,kinnaur,6538,EC6A_ST02_HIMACHAL_PRADESH,02,034,Kinnaur,02,Himachal Pradesh,kinnaur,normalized_name,1.000
+03,Punjab,0301,Gurdaspur,gurdaspur,95993,EC6A_ST03_PUNJAB,03,035,Gurdaspur,03,Punjab,gurdaspur,normalized_name,1.000
+03,Punjab,0302,Kapurthala,kapurthala,50031,EC6A_ST03_PUNJAB,03,036,Kapurthala,03,Punjab,kapurthala,normalized_name,1.000
+03,Punjab,0303,Jalandhar,jalandhar,140104,EC6A_ST03_PUNJAB,03,037,Jalandhar,03,Punjab,jalandhar,normalized_name,1.000
+03,Punjab,0304,Hoshiarpur,hoshiarpur,87948,EC6A_ST03_PUNJAB,03,038,Hoshiarpur,03,Punjab,hoshiarpur,normalized_name,1.000
+03,Punjab,0305,Shahid Bhagat Singh Nagar,shahid bhagat singh nagar,24700,EC6A_ST03_PUNJAB,03,039,Shahid Bhagat Singh Nagar,03,Punjab,shahid bhagat singh nagar,normalized_name,1.000
+03,Punjab,0306,Fatehgarh Sahib,fatehgarh sahib,36536,EC6A_ST03_PUNJAB,03,040,Fatehgarh Sahib,03,Punjab,fatehgarh sahib,normalized_name,1.000
+03,Punjab,0307,Ludhiana,ludhiana,218014,EC6A_ST03_PUNJAB,03,041,Ludhiana,03,Punjab,ludhiana,normalized_name,1.000
+03,Punjab,0308,Moga,moga,65233,EC6A_ST03_PUNJAB,03,042,Moga,03,Punjab,moga,normalized_name,1.000
+03,Punjab,0309,Firozpur,firozpur,106187,EC6A_ST03_PUNJAB,03,043,Firozpur,03,Punjab,firozpur,normalized_name,1.000
+03,Punjab,0310,Muktsar,muktsar,50014,EC6A_ST03_PUNJAB,03,044,Muktsar,03,Punjab,muktsar,normalized_name,1.000
+03,Punjab,0311,Faridkot,faridkot,37597,EC6A_ST03_PUNJAB,03,045,Faridkot,03,Punjab,faridkot,normalized_name,1.000
+03,Punjab,0312,Bathinda,bathinda,55294,EC6A_ST03_PUNJAB,03,046,Bathinda,03,Punjab,bathinda,normalized_name,1.000
+03,Punjab,0313,Mansa,mansa,24560,EC6A_ST03_PUNJAB,03,047,Mansa,03,Punjab,mansa,normalized_name,1.000
+03,Punjab,0314,Patiala,patiala,99818,EC6A_ST03_PUNJAB,03,048,Patiala,03,Punjab,patiala,normalized_name,1.000
+03,Punjab,0315,Amritsar,amritsar,133774,EC6A_ST03_PUNJAB,03,049,Amritsar,03,Punjab,amritsar,normalized_name,1.000
+03,Punjab,0316,Tarn Taran,tarn taran,51704,EC6A_ST03_PUNJAB,03,050,Tarn Taran,03,Punjab,tarn taran,normalized_name,1.000
+03,Punjab,0317,Rupnagar,rupnagar,32258,EC6A_ST03_PUNJAB,03,051,Rupnagar,03,Punjab,rupnagar,normalized_name,1.000
+03,Punjab,0318,Sahibzada Ajit Singh Nagar,sahibzada ajit singh nagar,40873,EC6A_ST03_PUNJAB,03,052,Sahibzada Ajit Singh Nagar,03,Punjab,sahibzada ajit singh nagar,normalized_name,1.000
+03,Punjab,0319,Sangrur,sangrur,129621,EC6A_ST03_PUNJAB,03,053,Sangrur,03,Punjab,sangrur,normalized_name,1.000
+03,Punjab,0320,Barnala,barnala,32993,EC6A_ST03_PUNJAB,03,054,Barnala,03,Punjab,barnala,normalized_name,1.000
+04,Chandigarh,0401,CHANDIGARH DISTRICT,chandigarh,83578,EC6A_ST04_CHANDIGARH,04,055,Chandigarh,04,Chandigarh,chandigarh,normalized_name,1.000
+05,Uttarakhand,0501,Uttarkashi,uttarkashi,11989,EC6A_ST05_UTTARAKHAND,05,056,Uttarkashi,05,Uttarakhand,uttarkashi,normalized_name,1.000
+05,Uttarakhand,0502,Chamoli,chamoli,16161,EC6A_ST05_UTTARAKHAND,05,057,Chamoli,05,Uttarakhand,chamoli,normalized_name,1.000
+05,Uttarakhand,0503,Rudraprayag,rudraprayag,8457,EC6A_ST05_UTTARAKHAND,05,058,Rudraprayag,05,Uttarakhand,rudraprayag,normalized_name,1.000
+05,Uttarakhand,0504,Tehri Garhwal,tehri garhwal,18517,EC6A_ST05_UTTARAKHAND,05,059,Tehri Garhwal,05,Uttarakhand,tehri garhwal,normalized_name,1.000
+05,Uttarakhand,0505,Dehradun,dehradun,61979,EC6A_ST05_UTTARAKHAND,05,060,Dehradun,05,Uttarakhand,dehradun,normalized_name,1.000
+05,Uttarakhand,0506,Garhwal,garhwal,22627,EC6A_ST05_UTTARAKHAND,05,061,Garhwal,05,Uttarakhand,garhwal,normalized_name,1.000
+05,Uttarakhand,0507,Pithoragarh,pithoragarh,22534,EC6A_ST05_UTTARAKHAND,05,062,Pithoragarh,05,Uttarakhand,pithoragarh,normalized_name,1.000
+05,Uttarakhand,0508,Bageshwar,bageshwar,8599,EC6A_ST05_UTTARAKHAND,05,063,Bageshwar,05,Uttarakhand,bageshwar,normalized_name,1.000
+05,Uttarakhand,0509,Almora,almora,25716,EC6A_ST05_UTTARAKHAND,05,064,Almora,05,Uttarakhand,almora,normalized_name,1.000
+05,Uttarakhand,0510,Champawat,champawat,10832,EC6A_ST05_UTTARAKHAND,05,065,Champawat,05,Uttarakhand,champawat,normalized_name,1.000
+05,Uttarakhand,0511,Nainital,nainital,33888,EC6A_ST05_UTTARAKHAND,05,066,Nainital,05,Uttarakhand,nainital,normalized_name,1.000
+05,Uttarakhand,0512,Udham Singh Nagar,udham singh nagar,59993,EC6A_ST05_UTTARAKHAND,05,067,Udham Singh Nagar,05,Uttarakhand,udham singh nagar,normalized_name,1.000
+05,Uttarakhand,0513,Hardwar,hardwar,92887,EC6A_ST05_UTTARAKHAND,05,068,Hardwar,05,Uttarakhand,hardwar,normalized_name,1.000
+06,Haryana,0601,Panchkula,panchkula,24818,EC6A_ST06_HARYANA,06,069,Panchkula,06,Haryana,panchkula,normalized_name,1.000
+06,Haryana,0602,Ambala,ambala,53055,EC6A_ST06_HARYANA,06,070,Ambala,06,Haryana,ambala,normalized_name,1.000
+06,Haryana,0603,Yamunanagar,yamunanagar,54413,EC6A_ST06_HARYANA,06,071,Yamunanagar,06,Haryana,yamunanagar,normalized_name,1.000
+06,Haryana,0604,Kurukshetra,kurukshetra,66260,EC6A_ST06_HARYANA,06,072,Kurukshetra,06,Haryana,kurukshetra,normalized_name,1.000
+06,Haryana,0605,Kaithal,kaithal,83999,EC6A_ST06_HARYANA,06,073,Kaithal,06,Haryana,kaithal,normalized_name,1.000
+06,Haryana,0606,Karnal,karnal,60815,EC6A_ST06_HARYANA,06,074,Karnal,06,Haryana,karnal,normalized_name,1.000
+06,Haryana,0607,Panipat,panipat,66654,EC6A_ST06_HARYANA,06,075,Panipat,06,Haryana,panipat,normalized_name,1.000
+06,Haryana,0608,Sonipat,sonipat,56560,EC6A_ST06_HARYANA,06,076,Sonipat,06,Haryana,sonipat,normalized_name,1.000
+06,Haryana,0609,Jind,jind,62799,EC6A_ST06_HARYANA,06,077,Jind,06,Haryana,jind,normalized_name,1.000
+06,Haryana,0610,Fatehabad,fatehabad,61961,EC6A_ST06_HARYANA,06,078,Fatehabad,06,Haryana,fatehabad,normalized_name,1.000
+06,Haryana,0611,Sirsa,sirsa,69606,EC6A_ST06_HARYANA,06,079,Sirsa,06,Haryana,sirsa,normalized_name,1.000
+06,Haryana,0612,Hisar,hisar,96684,EC6A_ST06_HARYANA,06,080,Hisar,06,Haryana,hisar,normalized_name,1.000
+06,Haryana,0613,Bhiwani,bhiwani,63757,EC6A_ST06_HARYANA,06,081,Bhiwani,06,Haryana,bhiwani,normalized_name,1.000
+06,Haryana,0614,Rohtak,rohtak,42990,EC6A_ST06_HARYANA,06,082,Rohtak,06,Haryana,rohtak,normalized_name,1.000
+06,Haryana,0615,Jhajjar,jhajjar,41188,EC6A_ST06_HARYANA,06,083,Jhajjar,06,Haryana,jhajjar,normalized_name,1.000
+06,Haryana,0616,Mahendragarh,mahendragarh,39800,EC6A_ST06_HARYANA,06,084,Mahendragarh,06,Haryana,mahendragarh,normalized_name,1.000
+06,Haryana,0617,Rewari,rewari,34688,EC6A_ST06_HARYANA,06,085,Rewari,06,Haryana,rewari,normalized_name,1.000
+06,Haryana,0618,Gurgaon,gurgaon,61914,EC6A_ST06_HARYANA,06,086,Gurgaon,06,Haryana,gurgaon,normalized_name,1.000
+06,Haryana,0619,Mewat,mewat,20139,EC6A_ST06_HARYANA,06,087,Mewat,06,Haryana,mewat,normalized_name,1.000
+06,Haryana,0620,Faridabad,faridabad,60716,EC6A_ST06_HARYANA,06,088,Faridabad,06,Haryana,faridabad,normalized_name,1.000
+06,Haryana,0621,Palwal,palwal,41969,EC6A_ST06_HARYANA,06,089,Palwal,06,Haryana,palwal,normalized_name,1.000
+07,Delhi,0701,North West,north west,93297,EC6A_ST07_DELHI,07,090,North West,07,Delhi,north west,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0702,North,north,73724,EC6A_ST07_DELHI,07,091,North,07,Delhi,north,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0703,North East,north east,86597,EC6A_ST07_DELHI,07,092,North East,07,Delhi,north east,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0704,East,east,80061,EC6A_ST07_DELHI,07,093,East,07,Delhi,east,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0705,New Delhi,new delhi,38153,EC6A_ST07_DELHI,07,094,New Delhi,07,Delhi,new delhi,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0706,Central,central,150671,EC6A_ST07_DELHI,07,095,Central,07,Delhi,central,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0707,West,west,106726,EC6A_ST07_DELHI,07,096,West,07,Delhi,west,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0708,South West,south west,42166,EC6A_ST07_DELHI,07,097,South West,07,Delhi,south west,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0709,South,south,57126,EC6A_ST07_DELHI,07,098,South,07,Delhi,south,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0710,Shahdra,shahdra,71738,EC6A_ST07_DELHI,07,093,East,07,Delhi,east,manual_delhi_11_to_pc11_9,1.000
+07,Delhi,0711,South East,south east,75049,EC6A_ST07_DELHI,07,098,South,07,Delhi,south,manual_delhi_11_to_pc11_9,1.000
+08,Rajasthan,0801,Ganganagar,ganganagar,81012,EC6A_ST08_RAJASTHAN,08,099,Ganganagar,08,Rajasthan,ganganagar,normalized_name,1.000
+08,Rajasthan,0802,Hanumangarh,hanumangarh,65340,EC6A_ST08_RAJASTHAN,08,100,Hanumangarh,08,Rajasthan,hanumangarh,normalized_name,1.000
+08,Rajasthan,0803,Bikaner,bikaner,178731,EC6A_ST08_RAJASTHAN,08,101,Bikaner,08,Rajasthan,bikaner,normalized_name,1.000
+08,Rajasthan,0804,Churu,churu,100755,EC6A_ST08_RAJASTHAN,08,102,Churu,08,Rajasthan,churu,normalized_name,1.000
+08,Rajasthan,0805,Jhunjhunun,jhunjhunun,70174,EC6A_ST08_RAJASTHAN,08,103,Jhunjhunun,08,Rajasthan,jhunjhunun,normalized_name,1.000
+08,Rajasthan,0806,Alwar,alwar,207096,EC6A_ST08_RAJASTHAN,08,104,Alwar,08,Rajasthan,alwar,normalized_name,1.000
+08,Rajasthan,0807,Bharatpur,bharatpur,165897,EC6A_ST08_RAJASTHAN,08,105,Bharatpur,08,Rajasthan,bharatpur,normalized_name,1.000
+08,Rajasthan,0808,Dhaulpur,dhaulpur,44563,EC6A_ST08_RAJASTHAN,08,106,Dhaulpur,08,Rajasthan,dhaulpur,normalized_name,1.000
+08,Rajasthan,0809,Karauli,karauli,34000,EC6A_ST08_RAJASTHAN,08,107,Karauli,08,Rajasthan,karauli,normalized_name,1.000
+08,Rajasthan,0810,Sawai Madhopur,sawai madhopur,49224,EC6A_ST08_RAJASTHAN,08,108,Sawai Madhopur,08,Rajasthan,sawai madhopur,normalized_name,1.000
+08,Rajasthan,0811,Dausa,dausa,58896,EC6A_ST08_RAJASTHAN,08,109,Dausa,08,Rajasthan,dausa,normalized_name,1.000
+08,Rajasthan,0812,Jaipur,jaipur,280116,EC6A_ST08_RAJASTHAN,08,110,Jaipur,08,Rajasthan,jaipur,normalized_name,1.000
+08,Rajasthan,0813,Sikar,sikar,138618,EC6A_ST08_RAJASTHAN,08,111,Sikar,08,Rajasthan,sikar,normalized_name,1.000
+08,Rajasthan,0814,Nagaur,nagaur,99804,EC6A_ST08_RAJASTHAN,08,112,Nagaur,08,Rajasthan,nagaur,normalized_name,1.000
+08,Rajasthan,0815,Jodhpur,jodhpur,116137,EC6A_ST08_RAJASTHAN,08,113,Jodhpur,08,Rajasthan,jodhpur,normalized_name,1.000
+08,Rajasthan,0816,Jaisalmer,jaisalmer,31377,EC6A_ST08_RAJASTHAN,08,114,Jaisalmer,08,Rajasthan,jaisalmer,normalized_name,1.000
+08,Rajasthan,0817,Barmer,barmer,65540,EC6A_ST08_RAJASTHAN,08,115,Barmer,08,Rajasthan,barmer,normalized_name,1.000
+08,Rajasthan,0818,Jalor,jalor,76434,EC6A_ST08_RAJASTHAN,08,116,Jalor,08,Rajasthan,jalor,normalized_name,1.000
+08,Rajasthan,0819,Sirohi,sirohi,41369,EC6A_ST08_RAJASTHAN,08,117,Sirohi,08,Rajasthan,sirohi,normalized_name,1.000
+08,Rajasthan,0820,Pali,pali,101356,EC6A_ST08_RAJASTHAN,08,118,Pali,08,Rajasthan,pali,normalized_name,1.000
+08,Rajasthan,0821,Ajmer,ajmer,124523,EC6A_ST08_RAJASTHAN,08,119,Ajmer,08,Rajasthan,ajmer,normalized_name,1.000
+08,Rajasthan,0822,Tonk,tonk,76560,EC6A_ST08_RAJASTHAN,08,120,Tonk,08,Rajasthan,tonk,normalized_name,1.000
+08,Rajasthan,0823,Bundi,bundi,54739,EC6A_ST08_RAJASTHAN,08,121,Bundi,08,Rajasthan,bundi,normalized_name,1.000
+08,Rajasthan,0824,Bhilwara,bhilwara,108606,EC6A_ST08_RAJASTHAN,08,122,Bhilwara,08,Rajasthan,bhilwara,normalized_name,1.000
+08,Rajasthan,0825,Rajsamand,rajsamand,66233,EC6A_ST08_RAJASTHAN,08,123,Rajsamand,08,Rajasthan,rajsamand,normalized_name,1.000
+08,Rajasthan,0826,Dungarpur,dungarpur,27580,EC6A_ST08_RAJASTHAN,08,124,Dungarpur,08,Rajasthan,dungarpur,normalized_name,1.000
+08,Rajasthan,0827,Banswara,banswara,30765,EC6A_ST08_RAJASTHAN,08,125,Banswara,08,Rajasthan,banswara,normalized_name,1.000
+08,Rajasthan,0828,Chittaurgarh,chittaurgarh,76524,EC6A_ST08_RAJASTHAN,08,126,Chittaurgarh,08,Rajasthan,chittaurgarh,normalized_name,1.000
+08,Rajasthan,0829,Kota,kota,81828,EC6A_ST08_RAJASTHAN,08,127,Kota,08,Rajasthan,kota,normalized_name,1.000
+08,Rajasthan,0830,Baran,baran,42905,EC6A_ST08_RAJASTHAN,08,128,Baran,08,Rajasthan,baran,normalized_name,1.000
+08,Rajasthan,0831,Jhalawar,jhalawar,63909,EC6A_ST08_RAJASTHAN,08,129,Jhalawar,08,Rajasthan,jhalawar,normalized_name,1.000
+08,Rajasthan,0832,Udaipur,udaipur,108651,EC6A_ST08_RAJASTHAN,08,130,Udaipur,08,Rajasthan,udaipur,normalized_name,1.000
+08,Rajasthan,0833,Pratapgarh,pratapgarh,25868,EC6A_ST08_RAJASTHAN,08,131,Pratapgarh,08,Rajasthan,pratapgarh,normalized_name,1.000
+09,Uttar Pradesh,0901,Saharanpur,saharanpur,143396,EC6A_ST09_UTTAR_PRADESH,09,132,Saharanpur,09,Uttar Pradesh,saharanpur,normalized_name,1.000
+09,Uttar Pradesh,0902,Muzaffarnagar,muzaffarnagar,125179,EC6A_ST09_UTTAR_PRADESH,09,133,Muzaffarnagar,09,Uttar Pradesh,muzaffarnagar,normalized_name,1.000
+09,Uttar Pradesh,0903,Bijnor,bijnor,134744,EC6A_ST09_UTTAR_PRADESH,09,134,Bijnor,09,Uttar Pradesh,bijnor,normalized_name,1.000
+09,Uttar Pradesh,0904,Moradabad,moradabad,242341,EC6A_ST09_UTTAR_PRADESH,09,135,Moradabad,09,Uttar Pradesh,moradabad,normalized_name,1.000
+09,Uttar Pradesh,0905,Rampur,rampur,96380,EC6A_ST09_UTTAR_PRADESH,09,136,Rampur,09,Uttar Pradesh,rampur,normalized_name,1.000
+09,Uttar Pradesh,0906,Jyotiba Phule Nagar,jyotiba phule nagar,136586,EC6A_ST09_UTTAR_PRADESH,09,137,Jyotiba Phule Nagar,09,Uttar Pradesh,jyotiba phule nagar,normalized_name,1.000
+09,Uttar Pradesh,0907,Meerut,meerut,251071,EC6A_ST09_UTTAR_PRADESH,09,138,Meerut,09,Uttar Pradesh,meerut,normalized_name,1.000
+09,Uttar Pradesh,0908,Baghpat,baghpat,47581,EC6A_ST09_UTTAR_PRADESH,09,139,Baghpat,09,Uttar Pradesh,baghpat,normalized_name,1.000
+09,Uttar Pradesh,0909,Ghaziabad,ghaziabad,201623,EC6A_ST09_UTTAR_PRADESH,09,140,Ghaziabad,09,Uttar Pradesh,ghaziabad,normalized_name,1.000
+09,Uttar Pradesh,0910,Gautam Buddha Nagar,gautam buddha nagar,71379,EC6A_ST09_UTTAR_PRADESH,09,141,Gautam Buddha Nagar,09,Uttar Pradesh,gautam buddha nagar,normalized_name,1.000
+09,Uttar Pradesh,0911,Bulandshahr,bulandshahr,260190,EC6A_ST09_UTTAR_PRADESH,09,142,Bulandshahr,09,Uttar Pradesh,bulandshahr,normalized_name,1.000
+09,Uttar Pradesh,0912,Aligarh,aligarh,226023,EC6A_ST09_UTTAR_PRADESH,09,143,Aligarh,09,Uttar Pradesh,aligarh,normalized_name,1.000
+09,Uttar Pradesh,0913,Mahamaya Nagar,mahamaya nagar,60516,EC6A_ST09_UTTAR_PRADESH,09,144,Mahamaya Nagar,09,Uttar Pradesh,mahamaya nagar,normalized_name,1.000
+09,Uttar Pradesh,0914,Mathura,mathura,68493,EC6A_ST09_UTTAR_PRADESH,09,145,Mathura,09,Uttar Pradesh,mathura,normalized_name,1.000
+09,Uttar Pradesh,0915,Agra,agra,219583,EC6A_ST09_UTTAR_PRADESH,09,146,Agra,09,Uttar Pradesh,agra,normalized_name,1.000
+09,Uttar Pradesh,0916,Firozabad,firozabad,68340,EC6A_ST09_UTTAR_PRADESH,09,147,Firozabad,09,Uttar Pradesh,firozabad,normalized_name,1.000
+09,Uttar Pradesh,0917,Mainpuri,mainpuri,50568,EC6A_ST09_UTTAR_PRADESH,09,148,Mainpuri,09,Uttar Pradesh,mainpuri,normalized_name,1.000
+09,Uttar Pradesh,0918,Budaun,budaun,217243,EC6A_ST09_UTTAR_PRADESH,09,149,Budaun,09,Uttar Pradesh,budaun,normalized_name,1.000
+09,Uttar Pradesh,0919,Bareilly,bareilly,262040,EC6A_ST09_UTTAR_PRADESH,09,150,Bareilly,09,Uttar Pradesh,bareilly,normalized_name,1.000
+09,Uttar Pradesh,0920,Pilibhit,pilibhit,82836,EC6A_ST09_UTTAR_PRADESH,09,151,Pilibhit,09,Uttar Pradesh,pilibhit,normalized_name,1.000
+09,Uttar Pradesh,0921,Shahjahanpur,shahjahanpur,80327,EC6A_ST09_UTTAR_PRADESH,09,152,Shahjahanpur,09,Uttar Pradesh,shahjahanpur,normalized_name,1.000
+09,Uttar Pradesh,0922,Kheri,kheri,73382,EC6A_ST09_UTTAR_PRADESH,09,153,Kheri,09,Uttar Pradesh,kheri,normalized_name,1.000
+09,Uttar Pradesh,0923,Sitapur,sitapur,105887,EC6A_ST09_UTTAR_PRADESH,09,154,Sitapur,09,Uttar Pradesh,sitapur,normalized_name,1.000
+09,Uttar Pradesh,0924,Hardoi,hardoi,84984,EC6A_ST09_UTTAR_PRADESH,09,155,Hardoi,09,Uttar Pradesh,hardoi,normalized_name,1.000
+09,Uttar Pradesh,0925,Unnao,unnao,55788,EC6A_ST09_UTTAR_PRADESH,09,156,Unnao,09,Uttar Pradesh,unnao,normalized_name,1.000
+09,Uttar Pradesh,0926,Lucknow,lucknow,231905,EC6A_ST09_UTTAR_PRADESH,09,157,Lucknow,09,Uttar Pradesh,lucknow,normalized_name,1.000
+09,Uttar Pradesh,0927,Rae Bareli,rae bareli,69247,EC6A_ST09_UTTAR_PRADESH,09,158,Rae Bareli,09,Uttar Pradesh,rae bareli,normalized_name,1.000
+09,Uttar Pradesh,0928,Farrukhabad,farrukhabad,41933,EC6A_ST09_UTTAR_PRADESH,09,159,Farrukhabad,09,Uttar Pradesh,farrukhabad,normalized_name,1.000
+09,Uttar Pradesh,0929,Kannauj,kannauj,41203,EC6A_ST09_UTTAR_PRADESH,09,160,Kannauj,09,Uttar Pradesh,kannauj,normalized_name,1.000
+09,Uttar Pradesh,0930,Etawah,etawah,88307,EC6A_ST09_UTTAR_PRADESH,09,161,Etawah,09,Uttar Pradesh,etawah,normalized_name,1.000
+09,Uttar Pradesh,0931,Auraiya,auraiya,32295,EC6A_ST09_UTTAR_PRADESH,09,162,Auraiya,09,Uttar Pradesh,auraiya,normalized_name,1.000
+09,Uttar Pradesh,0932,Kanpur Dehat,kanpur dehat,50018,EC6A_ST09_UTTAR_PRADESH,09,163,Kanpur Dehat,09,Uttar Pradesh,kanpur dehat,normalized_name,1.000
+09,Uttar Pradesh,0933,Kanpur Nagar,kanpur nagar,201306,EC6A_ST09_UTTAR_PRADESH,09,164,Kanpur Nagar,09,Uttar Pradesh,kanpur nagar,normalized_name,1.000
+09,Uttar Pradesh,0934,Jalaun,jalaun,61823,EC6A_ST09_UTTAR_PRADESH,09,165,Jalaun,09,Uttar Pradesh,jalaun,normalized_name,1.000
+09,Uttar Pradesh,0935,Jhansi,jhansi,58865,EC6A_ST09_UTTAR_PRADESH,09,166,Jhansi,09,Uttar Pradesh,jhansi,normalized_name,1.000
+09,Uttar Pradesh,0936,Lalitpur,lalitpur,25006,EC6A_ST09_UTTAR_PRADESH,09,167,Lalitpur,09,Uttar Pradesh,lalitpur,normalized_name,1.000
+09,Uttar Pradesh,0937,Hamirpur,hamirpur,21992,EC6A_ST09_UTTAR_PRADESH,09,168,Hamirpur,09,Uttar Pradesh,hamirpur,normalized_name,1.000
+09,Uttar Pradesh,0938,Mahoba,mahoba,22856,EC6A_ST09_UTTAR_PRADESH,09,169,Mahoba,09,Uttar Pradesh,mahoba,normalized_name,1.000
+09,Uttar Pradesh,0939,Banda,banda,34470,EC6A_ST09_UTTAR_PRADESH,09,170,Banda,09,Uttar Pradesh,banda,normalized_name,1.000
+09,Uttar Pradesh,0940,Chitrakoot,chitrakoot,15146,EC6A_ST09_UTTAR_PRADESH,09,171,Chitrakoot,09,Uttar Pradesh,chitrakoot,normalized_name,1.000
+09,Uttar Pradesh,0941,Fatehpur,fatehpur,92201,EC6A_ST09_UTTAR_PRADESH,09,172,Fatehpur,09,Uttar Pradesh,fatehpur,normalized_name,1.000
+09,Uttar Pradesh,0942,Pratapgarh,pratapgarh,59968,EC6A_ST09_UTTAR_PRADESH,09,173,Pratapgarh,09,Uttar Pradesh,pratapgarh,normalized_name,1.000
+09,Uttar Pradesh,0943,Kaushambi,kaushambi,35630,EC6A_ST09_UTTAR_PRADESH,09,174,Kaushambi,09,Uttar Pradesh,kaushambi,normalized_name,1.000
+09,Uttar Pradesh,0944,Allahabad,allahabad,223591,EC6A_ST09_UTTAR_PRADESH,09,175,Allahabad,09,Uttar Pradesh,allahabad,normalized_name,1.000
+09,Uttar Pradesh,0945,Bara Banki,bara banki,77883,EC6A_ST09_UTTAR_PRADESH,09,176,Bara Banki,09,Uttar Pradesh,bara banki,normalized_name,1.000
+09,Uttar Pradesh,0946,Faizabad,faizabad,54402,EC6A_ST09_UTTAR_PRADESH,09,177,Faizabad,09,Uttar Pradesh,faizabad,normalized_name,1.000
+09,Uttar Pradesh,0947,Ambedkar Nagar,ambedkar nagar,52384,EC6A_ST09_UTTAR_PRADESH,09,178,Ambedkar Nagar,09,Uttar Pradesh,ambedkar nagar,normalized_name,1.000
+09,Uttar Pradesh,0948,Sultanpur,sultanpur,84326,EC6A_ST09_UTTAR_PRADESH,09,179,Sultanpur,09,Uttar Pradesh,sultanpur,normalized_name,1.000
+09,Uttar Pradesh,0949,Bahraich,bahraich,53169,EC6A_ST09_UTTAR_PRADESH,09,180,Bahraich,09,Uttar Pradesh,bahraich,normalized_name,1.000
+09,Uttar Pradesh,0950,Shrawasti,shrawasti,17494,EC6A_ST09_UTTAR_PRADESH,09,181,Shrawasti,09,Uttar Pradesh,shrawasti,normalized_name,1.000
+09,Uttar Pradesh,0951,Balrampur,balrampur,36386,EC6A_ST09_UTTAR_PRADESH,09,182,Balrampur,09,Uttar Pradesh,balrampur,normalized_name,1.000
+09,Uttar Pradesh,0952,Gonda,gonda,49227,EC6A_ST09_UTTAR_PRADESH,09,183,Gonda,09,Uttar Pradesh,gonda,normalized_name,1.000
+09,Uttar Pradesh,0953,Siddharthnagar,siddharthnagar,57793,EC6A_ST09_UTTAR_PRADESH,09,184,Siddharthnagar,09,Uttar Pradesh,siddharthnagar,normalized_name,1.000
+09,Uttar Pradesh,0954,Basti,basti,51716,EC6A_ST09_UTTAR_PRADESH,09,185,Basti,09,Uttar Pradesh,basti,normalized_name,1.000
+09,Uttar Pradesh,0955,Sant Kabir Nagar,sant kabir nagar,63136,EC6A_ST09_UTTAR_PRADESH,09,186,Sant Kabir Nagar,09,Uttar Pradesh,sant kabir nagar,normalized_name,1.000
+09,Uttar Pradesh,0956,Mahrajganj,mahrajganj,74865,EC6A_ST09_UTTAR_PRADESH,09,187,Mahrajganj,09,Uttar Pradesh,mahrajganj,normalized_name,1.000
+09,Uttar Pradesh,0957,Gorakhpur,gorakhpur,132160,EC6A_ST09_UTTAR_PRADESH,09,188,Gorakhpur,09,Uttar Pradesh,gorakhpur,normalized_name,1.000
+09,Uttar Pradesh,0958,Kushinagar,kushinagar,71843,EC6A_ST09_UTTAR_PRADESH,09,189,Kushinagar,09,Uttar Pradesh,kushinagar,normalized_name,1.000
+09,Uttar Pradesh,0959,Deoria,deoria,79312,EC6A_ST09_UTTAR_PRADESH,09,190,Deoria,09,Uttar Pradesh,deoria,normalized_name,1.000
+09,Uttar Pradesh,0960,Azamgarh,azamgarh,126110,EC6A_ST09_UTTAR_PRADESH,09,191,Azamgarh,09,Uttar Pradesh,azamgarh,normalized_name,1.000
+09,Uttar Pradesh,0961,Mau,mau,73017,EC6A_ST09_UTTAR_PRADESH,09,192,Mau,09,Uttar Pradesh,mau,normalized_name,1.000
+09,Uttar Pradesh,0962,Ballia,ballia,85043,EC6A_ST09_UTTAR_PRADESH,09,193,Ballia,09,Uttar Pradesh,ballia,normalized_name,1.000
+09,Uttar Pradesh,0963,Jaunpur,jaunpur,104922,EC6A_ST09_UTTAR_PRADESH,09,194,Jaunpur,09,Uttar Pradesh,jaunpur,normalized_name,1.000
+09,Uttar Pradesh,0964,Ghazipur,ghazipur,100815,EC6A_ST09_UTTAR_PRADESH,09,195,Ghazipur,09,Uttar Pradesh,ghazipur,normalized_name,1.000
+09,Uttar Pradesh,0965,Chandauli,chandauli,37234,EC6A_ST09_UTTAR_PRADESH,09,196,Chandauli,09,Uttar Pradesh,chandauli,normalized_name,1.000
+09,Uttar Pradesh,0966,Varanasi,varanasi,144103,EC6A_ST09_UTTAR_PRADESH,09,197,Varanasi,09,Uttar Pradesh,varanasi,normalized_name,1.000
+09,Uttar Pradesh,0967,Sant Ravidas Nagar (Bhadohi),sant ravidas nagar,43595,EC6A_ST09_UTTAR_PRADESH,09,198,Sant Ravidas Nagar (Bhadohi),09,Uttar Pradesh,sant ravidas nagar,normalized_name,1.000
+09,Uttar Pradesh,0968,Mirzapur,mirzapur,60131,EC6A_ST09_UTTAR_PRADESH,09,199,Mirzapur,09,Uttar Pradesh,mirzapur,normalized_name,1.000
+09,Uttar Pradesh,0969,Sonbhadra,sonbhadra,29995,EC6A_ST09_UTTAR_PRADESH,09,200,Sonbhadra,09,Uttar Pradesh,sonbhadra,normalized_name,1.000
+09,Uttar Pradesh,0970,Etah,etah,70272,EC6A_ST09_UTTAR_PRADESH,09,201,Etah,09,Uttar Pradesh,etah,normalized_name,1.000
+09,Uttar Pradesh,0971,Kanshiram Nagar,kanshiram nagar,78330,EC6A_ST09_UTTAR_PRADESH,09,202,Kanshiram Nagar,09,Uttar Pradesh,kanshiram nagar,normalized_name,1.000
+10,Bihar,1001,Pashchim Champaran,pashchim champaran,62776,EC6A_ST10_BIHAR,10,203,Pashchim Champaran,10,Bihar,pashchim champaran,normalized_name,1.000
+10,Bihar,1002,Purba Champaran,purba champaran,63577,EC6A_ST10_BIHAR,10,204,Purba Champaran,10,Bihar,purba champaran,normalized_name,1.000
+10,Bihar,1003,Sheohar,sheohar,9740,EC6A_ST10_BIHAR,10,205,Sheohar,10,Bihar,sheohar,normalized_name,1.000
+10,Bihar,1004,Sitamarhi,sitamarhi,40635,EC6A_ST10_BIHAR,10,206,Sitamarhi,10,Bihar,sitamarhi,normalized_name,1.000
+10,Bihar,1005,Madhubani,madhubani,58703,EC6A_ST10_BIHAR,10,207,Madhubani,10,Bihar,madhubani,normalized_name,1.000
+10,Bihar,1006,Supaul,supaul,31472,EC6A_ST10_BIHAR,10,208,Supaul,10,Bihar,supaul,normalized_name,1.000
+10,Bihar,1007,Araria,araria,43191,EC6A_ST10_BIHAR,10,209,Araria,10,Bihar,araria,normalized_name,1.000
+10,Bihar,1008,Kishanganj,kishanganj,26627,EC6A_ST10_BIHAR,10,210,Kishanganj,10,Bihar,kishanganj,normalized_name,1.000
+10,Bihar,1009,Purnia,purnia,52904,EC6A_ST10_BIHAR,10,211,Purnia,10,Bihar,purnia,normalized_name,1.000
+10,Bihar,1010,Katihar,katihar,49406,EC6A_ST10_BIHAR,10,212,Katihar,10,Bihar,katihar,normalized_name,1.000
+10,Bihar,1011,Madhepura,madhepura,34647,EC6A_ST10_BIHAR,10,213,Madhepura,10,Bihar,madhepura,normalized_name,1.000
+10,Bihar,1012,Saharsa,saharsa,24370,EC6A_ST10_BIHAR,10,214,Saharsa,10,Bihar,saharsa,normalized_name,1.000
+10,Bihar,1013,Darbhanga,darbhanga,73428,EC6A_ST10_BIHAR,10,215,Darbhanga,10,Bihar,darbhanga,normalized_name,1.000
+10,Bihar,1014,Muzaffarpur,muzaffarpur,69163,EC6A_ST10_BIHAR,10,216,Muzaffarpur,10,Bihar,muzaffarpur,normalized_name,1.000
+10,Bihar,1015,Gopalganj,gopalganj,34732,EC6A_ST10_BIHAR,10,217,Gopalganj,10,Bihar,gopalganj,normalized_name,1.000
+10,Bihar,1016,Siwan,siwan,44723,EC6A_ST10_BIHAR,10,218,Siwan,10,Bihar,siwan,normalized_name,1.000
+10,Bihar,1017,Saran,saran,52398,EC6A_ST10_BIHAR,10,219,Saran,10,Bihar,saran,normalized_name,1.000
+10,Bihar,1018,Vaishali,vaishali,56094,EC6A_ST10_BIHAR,10,220,Vaishali,10,Bihar,vaishali,normalized_name,1.000
+10,Bihar,1019,Samastipur,samastipur,87266,EC6A_ST10_BIHAR,10,221,Samastipur,10,Bihar,samastipur,normalized_name,1.000
+10,Bihar,1020,Begusarai,begusarai,56329,EC6A_ST10_BIHAR,10,222,Begusarai,10,Bihar,begusarai,normalized_name,1.000
+10,Bihar,1021,Khagaria,khagaria,34362,EC6A_ST10_BIHAR,10,223,Khagaria,10,Bihar,khagaria,normalized_name,1.000
+10,Bihar,1022,Bhagalpur,bhagalpur,55272,EC6A_ST10_BIHAR,10,224,Bhagalpur,10,Bihar,bhagalpur,normalized_name,1.000
+10,Bihar,1023,Banka,banka,33493,EC6A_ST10_BIHAR,10,225,Banka,10,Bihar,banka,normalized_name,1.000
+10,Bihar,1024,Munger,munger,26287,EC6A_ST10_BIHAR,10,226,Munger,10,Bihar,munger,normalized_name,1.000
+10,Bihar,1025,Lakhisarai,lakhisarai,21090,EC6A_ST10_BIHAR,10,227,Lakhisarai,10,Bihar,lakhisarai,normalized_name,1.000
+10,Bihar,1026,Sheikhpura,sheikhpura,11536,EC6A_ST10_BIHAR,10,228,Sheikhpura,10,Bihar,sheikhpura,normalized_name,1.000
+10,Bihar,1027,Nalanda,nalanda,60480,EC6A_ST10_BIHAR,10,229,Nalanda,10,Bihar,nalanda,normalized_name,1.000
+10,Bihar,1028,Patna,patna,147972,EC6A_ST10_BIHAR,10,230,Patna,10,Bihar,patna,normalized_name,1.000
+10,Bihar,1029,Bhojpur,bhojpur,40808,EC6A_ST10_BIHAR,10,231,Bhojpur,10,Bihar,bhojpur,normalized_name,1.000
+10,Bihar,1030,Buxar,buxar,30979,EC6A_ST10_BIHAR,10,232,Buxar,10,Bihar,buxar,normalized_name,1.000
+10,Bihar,1031,Kaimur (Bhabua),kaimur,22549,EC6A_ST10_BIHAR,10,233,Kaimur (Bhabua),10,Bihar,kaimur,normalized_name,1.000
+10,Bihar,1032,Rohtas,rohtas,52819,EC6A_ST10_BIHAR,10,234,Rohtas,10,Bihar,rohtas,normalized_name,1.000
+10,Bihar,1033,Aurangabad,aurangabad,35274,EC6A_ST10_BIHAR,10,235,Aurangabad,10,Bihar,aurangabad,normalized_name,1.000
+10,Bihar,1034,Gaya,gaya,59995,EC6A_ST10_BIHAR,10,236,Gaya,10,Bihar,gaya,normalized_name,1.000
+10,Bihar,1035,Nawada,nawada,48200,EC6A_ST10_BIHAR,10,237,Nawada,10,Bihar,nawada,normalized_name,1.000
+10,Bihar,1036,Jamui,jamui,28461,EC6A_ST10_BIHAR,10,238,Jamui,10,Bihar,jamui,normalized_name,1.000
+10,Bihar,1037,Jehanabad,jehanabad,15221,EC6A_ST10_BIHAR,10,239,Jehanabad,10,Bihar,jehanabad,normalized_name,1.000
+10,Bihar,1038,Arwal,arwal,10419,EC6A_ST10_BIHAR,10,240,Arwal,10,Bihar,arwal,normalized_name,1.000
+11,Sikkim,1101,North District,north,1794,EC6A_ST11_SIKKIM,11,241,North  District,11,Sikkim,north,normalized_name,1.000
+11,Sikkim,1102,West District,west,7065,EC6A_ST11_SIKKIM,11,242,West District,11,Sikkim,west,normalized_name,1.000
+11,Sikkim,1103,South District,south,9567,EC6A_ST11_SIKKIM,11,243,South District,11,Sikkim,south,normalized_name,1.000
+11,Sikkim,1104,East District,east,18793,EC6A_ST11_SIKKIM,11,244,East District,11,Sikkim,east,normalized_name,1.000
+12,Arunachal Pradesh,1201,Tawang,tawang,1346,EC6A_ST12_ARUNACHAL_PRADESH,12,245,Tawang,12,Arunachal Pradesh,tawang,normalized_name,1.000
+12,Arunachal Pradesh,1202,West Kameng,west kameng,2657,EC6A_ST12_ARUNACHAL_PRADESH,12,246,West Kameng,12,Arunachal Pradesh,west kameng,normalized_name,1.000
+12,Arunachal Pradesh,1203,East Kameng,east kameng,2040,EC6A_ST12_ARUNACHAL_PRADESH,12,247,East Kameng,12,Arunachal Pradesh,east kameng,normalized_name,1.000
+12,Arunachal Pradesh,1204,Papum Pare,papum pare,6757,EC6A_ST12_ARUNACHAL_PRADESH,12,248,Papum Pare,12,Arunachal Pradesh,papum pare,normalized_name,1.000
+12,Arunachal Pradesh,1205,Upper Subansiri,upper subansiri,1503,EC6A_ST12_ARUNACHAL_PRADESH,12,249,Upper Subansiri,12,Arunachal Pradesh,upper subansiri,normalized_name,1.000
+12,Arunachal Pradesh,1206,West Siang,west siang,4185,EC6A_ST12_ARUNACHAL_PRADESH,12,250,West Siang,12,Arunachal Pradesh,west siang,normalized_name,1.000
+12,Arunachal Pradesh,1207,East Siang,east siang,5744,EC6A_ST12_ARUNACHAL_PRADESH,12,251,East Siang,12,Arunachal Pradesh,east siang,normalized_name,1.000
+12,Arunachal Pradesh,1208,Upper Siang,upper siang,785,EC6A_ST12_ARUNACHAL_PRADESH,12,252,Upper Siang,12,Arunachal Pradesh,upper siang,normalized_name,1.000
+12,Arunachal Pradesh,1209,Changlang,changlang,2146,EC6A_ST12_ARUNACHAL_PRADESH,12,253,Changlang,12,Arunachal Pradesh,changlang,normalized_name,1.000
+12,Arunachal Pradesh,1210,Tirap,tirap,762,EC6A_ST12_ARUNACHAL_PRADESH,12,254,Tirap,12,Arunachal Pradesh,tirap,normalized_name,1.000
+12,Arunachal Pradesh,1211,Lower Subansiri,lower subansiri,2383,EC6A_ST12_ARUNACHAL_PRADESH,12,255,Lower Subansiri,12,Arunachal Pradesh,lower subansiri,normalized_name,1.000
+12,Arunachal Pradesh,1212,Kurung Kumey,kurung kumey,688,EC6A_ST12_ARUNACHAL_PRADESH,12,256,Kurung Kumey,12,Arunachal Pradesh,kurung kumey,normalized_name,1.000
+12,Arunachal Pradesh,1213,Dibang Valley,dibang valley,249,EC6A_ST12_ARUNACHAL_PRADESH,12,257,Dibang Valley,12,Arunachal Pradesh,dibang valley,normalized_name,1.000
+12,Arunachal Pradesh,1214,Lower Dibang Valley,lower dibang valley,1012,EC6A_ST12_ARUNACHAL_PRADESH,12,258,Lower Dibang Valley,12,Arunachal Pradesh,lower dibang valley,normalized_name,1.000
+12,Arunachal Pradesh,1215,Lohit,lohit,3778,EC6A_ST12_ARUNACHAL_PRADESH,12,259,Lohit,12,Arunachal Pradesh,lohit,normalized_name,1.000
+12,Arunachal Pradesh,1216,Anjaw,anjaw,380,EC6A_ST12_ARUNACHAL_PRADESH,12,260,Anjaw,12,Arunachal Pradesh,anjaw,normalized_name,1.000
+13,Nagaland,1301,Mon,mon,7529,EC6A_ST13_NAGALAND,13,261,Mon,13,Nagaland,mon,normalized_name,1.000
+13,Nagaland,1302,Mokokchung,mokokchung,5465,EC6A_ST13_NAGALAND,13,262,Mokokchung,13,Nagaland,mokokchung,normalized_name,1.000
+13,Nagaland,1303,Zunheboto,zunheboto,2916,EC6A_ST13_NAGALAND,13,263,Zunheboto,13,Nagaland,zunheboto,normalized_name,1.000
+13,Nagaland,1304,Wokha,wokha,4391,EC6A_ST13_NAGALAND,13,264,Wokha,13,Nagaland,wokha,normalized_name,1.000
+13,Nagaland,1305,Dimapur,dimapur,15326,EC6A_ST13_NAGALAND,13,265,Dimapur,13,Nagaland,dimapur,normalized_name,1.000
+13,Nagaland,1306,Phek,phek,3353,EC6A_ST13_NAGALAND,13,266,Phek,13,Nagaland,phek,normalized_name,1.000
+13,Nagaland,1307,Tuensang,tuensang,3377,EC6A_ST13_NAGALAND,13,267,Tuensang,13,Nagaland,tuensang,normalized_name,1.000
+13,Nagaland,1308,Longleng,longleng,3504,EC6A_ST13_NAGALAND,13,268,Longleng,13,Nagaland,longleng,normalized_name,1.000
+13,Nagaland,1309,Kiphire,kiphire,901,EC6A_ST13_NAGALAND,13,269,Kiphire,13,Nagaland,kiphire,normalized_name,1.000
+13,Nagaland,1310,Kohima,kohima,10808,EC6A_ST13_NAGALAND,13,270,Kohima,13,Nagaland,kohima,normalized_name,1.000
+13,Nagaland,1311,Peren,peren,3367,EC6A_ST13_NAGALAND,13,271,Peren,13,Nagaland,peren,normalized_name,1.000
+14,Manipur,1401,Senapati,senapati,9537,EC6A_ST14_MANIPUR,14,272,Senapati,14,Manipur,senapati,normalized_name,1.000
+14,Manipur,1402,Tamenglong,tamenglong,3653,EC6A_ST14_MANIPUR,14,273,Tamenglong,14,Manipur,tamenglong,normalized_name,1.000
+14,Manipur,1403,Churachandpur,churachandpur,22516,EC6A_ST14_MANIPUR,14,274,Churachandpur,14,Manipur,churachandpur,normalized_name,1.000
+14,Manipur,1404,Bishnupur,bishnupur,31844,EC6A_ST14_MANIPUR,14,275,Bishnupur,14,Manipur,bishnupur,normalized_name,1.000
+14,Manipur,1405,Thoubal,thoubal,45944,EC6A_ST14_MANIPUR,14,276,Thoubal,14,Manipur,thoubal,normalized_name,1.000
+14,Manipur,1406,Imphal West,imphal west,51783,EC6A_ST14_MANIPUR,14,277,Imphal West,14,Manipur,imphal west,normalized_name,1.000
+14,Manipur,1407,Imphal East,imphal east,45346,EC6A_ST14_MANIPUR,14,278,Imphal East,14,Manipur,imphal east,normalized_name,1.000
+14,Manipur,1408,Ukhrul,ukhrul,9104,EC6A_ST14_MANIPUR,14,279,Ukhrul,14,Manipur,ukhrul,normalized_name,1.000
+14,Manipur,1409,Chandel,chandel,10111,EC6A_ST14_MANIPUR,14,280,Chandel,14,Manipur,chandel,normalized_name,1.000
+15,Mizoram,1501,Mamit,mamit,3705,EC6A_ST15_MIZORAM,15,281,Mamit,15,Mizoram,mamit,normalized_name,1.000
+15,Mizoram,1502,Kolasib,kolasib,4873,EC6A_ST15_MIZORAM,15,282,Kolasib,15,Mizoram,kolasib,normalized_name,1.000
+15,Mizoram,1503,Aizawl,aizawl,24219,EC6A_ST15_MIZORAM,15,283,Aizawl,15,Mizoram,aizawl,normalized_name,1.000
+15,Mizoram,1504,Champhai,champhai,5964,EC6A_ST15_MIZORAM,15,284,Champhai,15,Mizoram,champhai,normalized_name,1.000
+15,Mizoram,1505,Serchhip,serchhip,3810,EC6A_ST15_MIZORAM,15,285,Serchhip,15,Mizoram,serchhip,normalized_name,1.000
+15,Mizoram,1506,Lunglei,lunglei,7775,EC6A_ST15_MIZORAM,15,286,Lunglei,15,Mizoram,lunglei,normalized_name,1.000
+15,Mizoram,1507,Lawngtlai,lawngtlai,4178,EC6A_ST15_MIZORAM,15,287,Lawngtlai,15,Mizoram,lawngtlai,normalized_name,1.000
+15,Mizoram,1508,Saiha,saiha,2962,EC6A_ST15_MIZORAM,15,288,Saiha,15,Mizoram,saiha,normalized_name,1.000
+16,Tripura,1601,West Tripura,west tripura,113650,EC6A_ST16_TRIPURA,16,289,West Tripura,16,Tripura,west tripura,normalized_name,1.000
+16,Tripura,1602,South Tripura,south tripura,61155,EC6A_ST16_TRIPURA,16,290,South Tripura,16,Tripura,south tripura,normalized_name,1.000
+16,Tripura,1603,Dhalai,dhalai,20507,EC6A_ST16_TRIPURA,16,291,Dhalai,16,Tripura,dhalai,normalized_name,1.000
+16,Tripura,1604,North Tripura,north tripura,41461,EC6A_ST16_TRIPURA,16,292,North Tripura,16,Tripura,north tripura,normalized_name,1.000
+17,Meghalaya,1701,West Garo Hills,west garo hills,19537,EC6A_ST17_MEGHALAYA,17,293,West Garo Hills,17,Meghalaya,west garo hills,normalized_name,1.000
+17,Meghalaya,1702,East Garo Hills,east garo hills,9097,EC6A_ST17_MEGHALAYA,17,294,East Garo Hills,17,Meghalaya,east garo hills,normalized_name,1.000
+17,Meghalaya,1703,South Garo Hills,south garo hills,5241,EC6A_ST17_MEGHALAYA,17,295,South Garo Hills,17,Meghalaya,south garo hills,normalized_name,1.000
+17,Meghalaya,1704,West Khasi Hills,west khasi hills,10787,EC6A_ST17_MEGHALAYA,17,296,West Khasi Hills,17,Meghalaya,west khasi hills,normalized_name,1.000
+17,Meghalaya,1705,Ribhoi,ribhoi,12331,EC6A_ST17_MEGHALAYA,17,297,Ribhoi,17,Meghalaya,ribhoi,normalized_name,1.000
+17,Meghalaya,1706,East Khasi Hills,east khasi hills,35187,EC6A_ST17_MEGHALAYA,17,298,East Khasi Hills,17,Meghalaya,east khasi hills,normalized_name,1.000
+17,Meghalaya,1707,Jaintia Hills,jaintia hills,13376,EC6A_ST17_MEGHALAYA,17,299,Jaintia Hills,17,Meghalaya,jaintia hills,normalized_name,1.000
+18,Assam,1801,Kokrajhar,kokrajhar,48284,EC6A_ST18_ASSAM,18,300,Kokrajhar,18,Assam,kokrajhar,normalized_name,1.000
+18,Assam,1802,Dhubri,dhubri,90852,EC6A_ST18_ASSAM,18,301,Dhubri,18,Assam,dhubri,normalized_name,1.000
+18,Assam,1803,Goalpara,goalpara,51097,EC6A_ST18_ASSAM,18,302,Goalpara,18,Assam,goalpara,normalized_name,1.000
+18,Assam,1804,Barpeta,barpeta,170381,EC6A_ST18_ASSAM,18,303,Barpeta,18,Assam,barpeta,normalized_name,1.000
+18,Assam,1805,Morigaon,morigaon,43783,EC6A_ST18_ASSAM,18,304,Morigaon,18,Assam,morigaon,normalized_name,1.000
+18,Assam,1806,Nagaon,nagaon,192717,EC6A_ST18_ASSAM,18,305,Nagaon,18,Assam,nagaon,normalized_name,1.000
+18,Assam,1807,Sonitpur,sonitpur,91467,EC6A_ST18_ASSAM,18,306,Sonitpur,18,Assam,sonitpur,normalized_name,1.000
+18,Assam,1808,Lakhimpur,lakhimpur,56569,EC6A_ST18_ASSAM,18,307,Lakhimpur,18,Assam,lakhimpur,normalized_name,1.000
+18,Assam,1809,Dhemaji,dhemaji,28222,EC6A_ST18_ASSAM,18,308,Dhemaji,18,Assam,dhemaji,normalized_name,1.000
+18,Assam,1810,Tinsukia,tinsukia,71093,EC6A_ST18_ASSAM,18,309,Tinsukia,18,Assam,tinsukia,normalized_name,1.000
+18,Assam,1811,Dibrugarh,dibrugarh,68909,EC6A_ST18_ASSAM,18,310,Dibrugarh,18,Assam,dibrugarh,normalized_name,1.000
+18,Assam,1812,Sivasagar,sivasagar,67872,EC6A_ST18_ASSAM,18,311,Sivasagar,18,Assam,sivasagar,normalized_name,1.000
+18,Assam,1813,Jorhat,jorhat,88684,EC6A_ST18_ASSAM,18,312,Jorhat,18,Assam,jorhat,normalized_name,1.000
+18,Assam,1814,Golaghat,golaghat,63781,EC6A_ST18_ASSAM,18,313,Golaghat,18,Assam,golaghat,normalized_name,1.000
+18,Assam,1815,Karbi Anglong,karbi anglong,55232,EC6A_ST18_ASSAM,18,314,Karbi Anglong,18,Assam,karbi anglong,normalized_name,1.000
+18,Assam,1816,Dima Hasao,dima hasao,40432,EC6A_ST18_ASSAM,18,315,Dima Hasao,18,Assam,dima hasao,normalized_name,1.000
+18,Assam,1817,Cachar,cachar,135884,EC6A_ST18_ASSAM,18,316,Cachar,18,Assam,cachar,normalized_name,1.000
+18,Assam,1818,Karimganj,karimganj,87392,EC6A_ST18_ASSAM,18,317,Karimganj,18,Assam,karimganj,normalized_name,1.000
+18,Assam,1819,Hailakandi,hailakandi,41105,EC6A_ST18_ASSAM,18,318,Hailakandi,18,Assam,hailakandi,normalized_name,1.000
+18,Assam,1820,Bongaigaon,bongaigaon,43694,EC6A_ST18_ASSAM,18,319,Bongaigaon,18,Assam,bongaigaon,normalized_name,1.000
+18,Assam,1821,Chirang,chirang,16849,EC6A_ST18_ASSAM,18,320,Chirang,18,Assam,chirang,normalized_name,1.000
+18,Assam,1822,Kamrup,kamrup,91729,EC6A_ST18_ASSAM,18,321,Kamrup,18,Assam,kamrup,normalized_name,1.000
+18,Assam,1823,Kamrup Metropolitan,kamrup metropolitan,201889,EC6A_ST18_ASSAM,18,322,Kamrup Metropolitan,18,Assam,kamrup metropolitan,normalized_name,1.000
+18,Assam,1824,Nalbari,nalbari,55086,EC6A_ST18_ASSAM,18,323,Nalbari,18,Assam,nalbari,normalized_name,1.000
+18,Assam,1825,Baksa,baksa,47204,EC6A_ST18_ASSAM,18,324,Baksa,18,Assam,baksa,normalized_name,1.000
+18,Assam,1826,Darrang,darrang,44458,EC6A_ST18_ASSAM,18,325,Darrang,18,Assam,darrang,normalized_name,1.000
+18,Assam,1827,Udalguri,udalguri,35377,EC6A_ST18_ASSAM,18,326,Udalguri,18,Assam,udalguri,normalized_name,1.000
+19,West Bengal,1901,Darjiling,darjiling,124784,EC6A_ST19_WEST_BENGAL,19,327,Darjiling,19,West Bengal,darjiling,normalized_name,1.000
+19,West Bengal,1902,Jalpaiguri,jalpaiguri,311966,EC6A_ST19_WEST_BENGAL,19,328,Jalpaiguri,19,West Bengal,jalpaiguri,normalized_name,1.000
+19,West Bengal,1903,KochBihar,kochbihar,129503,EC6A_ST19_WEST_BENGAL,19,329,Koch Bihar,19,West Bengal,koch bihar,fuzzy_name,0.947
+19,West Bengal,1904,UttarDinajpur,uttardinajpur,199617,EC6A_ST19_WEST_BENGAL,19,330,Uttar Dinajpur,19,West Bengal,uttar dinajpur,fuzzy_name,0.963
+19,West Bengal,1905,Dakshin Dinajpur,dakshin dinajpur,136815,EC6A_ST19_WEST_BENGAL,19,331,Dakshin Dinajpur,19,West Bengal,dakshin dinajpur,normalized_name,1.000
+19,West Bengal,1906,Maldah,maldah,307536,EC6A_ST19_WEST_BENGAL,19,332,Maldah,19,West Bengal,maldah,normalized_name,1.000
+19,West Bengal,1907,Murshidabad,murshidabad,535026,EC6A_ST19_WEST_BENGAL,19,333,Murshidabad,19,West Bengal,murshidabad,normalized_name,1.000
+19,West Bengal,1908,Birbhum,birbhum,186535,EC6A_ST19_WEST_BENGAL,19,334,Birbhum,19,West Bengal,birbhum,normalized_name,1.000
+19,West Bengal,1909,Barddhaman,barddhaman,438269,EC6A_ST19_WEST_BENGAL,19,335,Barddhaman,19,West Bengal,barddhaman,normalized_name,1.000
+19,West Bengal,1910,Nadia,nadia,340303,EC6A_ST19_WEST_BENGAL,19,336,Nadia,19,West Bengal,nadia,normalized_name,1.000
+19,West Bengal,1911,NorthTwentyFourParganas,northtwentyfourparganas,562464,EC6A_ST19_WEST_BENGAL,19,337,North Twenty Four Parganas,19,West Bengal,north twenty four parganas,fuzzy_name,0.939
+19,West Bengal,1912,Hugli,hugli,310172,EC6A_ST19_WEST_BENGAL,19,338,Hugli,19,West Bengal,hugli,normalized_name,1.000
+19,West Bengal,1913,Bankura,bankura,185526,EC6A_ST19_WEST_BENGAL,19,339,Bankura,19,West Bengal,bankura,normalized_name,1.000
+19,West Bengal,1914,Puruliya,puruliya,130074,EC6A_ST19_WEST_BENGAL,19,340,Puruliya,19,West Bengal,puruliya,normalized_name,1.000
+19,West Bengal,1915,Haora,haora,324974,EC6A_ST19_WEST_BENGAL,19,341,Haora,19,West Bengal,haora,normalized_name,1.000
+19,West Bengal,1916,Kolkata,kolkata,543081,EC6A_ST19_WEST_BENGAL,19,342,Kolkata,19,West Bengal,kolkata,normalized_name,1.000
+19,West Bengal,1917,South Twenty Four Parganas,south twenty four parganas,498081,EC6A_ST19_WEST_BENGAL,19,343,South Twenty Four Parganas,19,West Bengal,south twenty four parganas,normalized_name,1.000
+19,West Bengal,1918,Paschim Medinipur,paschim medinipur,302955,EC6A_ST19_WEST_BENGAL,19,344,Paschim Medinipur,19,West Bengal,paschim medinipur,normalized_name,1.000
+19,West Bengal,1919,PurbaMedinipur,purbamedinipur,337969,EC6A_ST19_WEST_BENGAL,19,345,Purba Medinipur,19,West Bengal,purba medinipur,fuzzy_name,0.966
+20,Jharkhand,2001,Garhwa,garhwa,11045,EC6A_ST20_JHARKHAND,20,346,Garhwa,20,Jharkhand,garhwa,normalized_name,1.000
+20,Jharkhand,2002,Chatra,chatra,12661,EC6A_ST20_JHARKHAND,20,347,Chatra,20,Jharkhand,chatra,normalized_name,1.000
+20,Jharkhand,2003,Kodarma,kodarma,11518,EC6A_ST20_JHARKHAND,20,348,Kodarma,20,Jharkhand,kodarma,normalized_name,1.000
+20,Jharkhand,2004,Giridih,giridih,32564,EC6A_ST20_JHARKHAND,20,349,Giridih,20,Jharkhand,giridih,normalized_name,1.000
+20,Jharkhand,2005,Deoghar,deoghar,26575,EC6A_ST20_JHARKHAND,20,350,Deoghar,20,Jharkhand,deoghar,normalized_name,1.000
+20,Jharkhand,2006,Godda,godda,26611,EC6A_ST20_JHARKHAND,20,351,Godda,20,Jharkhand,godda,normalized_name,1.000
+20,Jharkhand,2007,Sahibganj,sahibganj,15471,EC6A_ST20_JHARKHAND,20,352,Sahibganj,20,Jharkhand,sahibganj,normalized_name,1.000
+20,Jharkhand,2008,Pakur,pakur,13959,EC6A_ST20_JHARKHAND,20,353,Pakur,20,Jharkhand,pakur,normalized_name,1.000
+20,Jharkhand,2009,Dhanbad,dhanbad,89644,EC6A_ST20_JHARKHAND,20,354,Dhanbad,20,Jharkhand,dhanbad,normalized_name,1.000
+20,Jharkhand,2010,Bokaro,bokaro,44616,EC6A_ST20_JHARKHAND,20,355,Bokaro,20,Jharkhand,bokaro,normalized_name,1.000
+20,Jharkhand,2011,Lohardaga,lohardaga,9681,EC6A_ST20_JHARKHAND,20,356,Lohardaga,20,Jharkhand,lohardaga,normalized_name,1.000
+20,Jharkhand,2012,Purbi Singhbhum,purbi singhbhum,72835,EC6A_ST20_JHARKHAND,20,357,Purbi Singhbhum,20,Jharkhand,purbi singhbhum,normalized_name,1.000
+20,Jharkhand,2013,Palamu,palamu,23171,EC6A_ST20_JHARKHAND,20,358,Palamu,20,Jharkhand,palamu,normalized_name,1.000
+20,Jharkhand,2014,Latehar,latehar,11741,EC6A_ST20_JHARKHAND,20,359,Latehar,20,Jharkhand,latehar,normalized_name,1.000
+20,Jharkhand,2015,Hazaribagh,hazaribagh,32783,EC6A_ST20_JHARKHAND,20,360,Hazaribagh,20,Jharkhand,hazaribagh,normalized_name,1.000
+20,Jharkhand,2016,Ramgarh,ramgarh,20795,EC6A_ST20_JHARKHAND,20,361,Ramgarh,20,Jharkhand,ramgarh,normalized_name,1.000
+20,Jharkhand,2017,Dumka,dumka,22822,EC6A_ST20_JHARKHAND,20,362,Dumka,20,Jharkhand,dumka,normalized_name,1.000
+20,Jharkhand,2018,Jamtara,jamtara,15479,EC6A_ST20_JHARKHAND,20,363,Jamtara,20,Jharkhand,jamtara,normalized_name,1.000
+20,Jharkhand,2019,Ranchi,ranchi,64493,EC6A_ST20_JHARKHAND,20,364,Ranchi,20,Jharkhand,ranchi,normalized_name,1.000
+20,Jharkhand,2020,Khunti,khunti,7180,EC6A_ST20_JHARKHAND,20,365,Khunti,20,Jharkhand,khunti,normalized_name,1.000
+20,Jharkhand,2021,Gumla,gumla,17063,EC6A_ST20_JHARKHAND,20,366,Gumla,20,Jharkhand,gumla,normalized_name,1.000
+20,Jharkhand,2022,Simdega,simdega,7985,EC6A_ST20_JHARKHAND,20,367,Simdega,20,Jharkhand,simdega,normalized_name,1.000
+20,Jharkhand,2023,Pashchimi Singhbhum,pashchimi singhbhum,28552,EC6A_ST20_JHARKHAND,20,368,Pashchimi Singhbhum,20,Jharkhand,pashchimi singhbhum,normalized_name,1.000
+20,Jharkhand,2024,Saraikela-Kharsawan,saraikela kharsawan,19469,EC6A_ST20_JHARKHAND,20,369,Saraikela-Kharsawan,20,Jharkhand,saraikela kharsawan,normalized_name,1.000
+21,Odisha,2101,Bargarh,bargarh,75936,EC6A_ST21_ODISHA,21,370,Bargarh,21,Odisha,bargarh,normalized_name,1.000
+21,Odisha,2102,Jharsuguda,jharsuguda,34433,EC6A_ST21_ODISHA,21,371,Jharsuguda,21,Odisha,jharsuguda,normalized_name,1.000
+21,Odisha,2103,Sambalpur,sambalpur,87109,EC6A_ST21_ODISHA,21,372,Sambalpur,21,Odisha,sambalpur,normalized_name,1.000
+21,Odisha,2104,Debagarh,debagarh,10645,EC6A_ST21_ODISHA,21,373,Debagarh,21,Odisha,debagarh,normalized_name,1.000
+21,Odisha,2105,Sundargarh,sundargarh,76080,EC6A_ST21_ODISHA,21,374,Sundargarh,21,Odisha,sundargarh,normalized_name,1.000
+21,Odisha,2106,Kendujhar,kendujhar,91565,EC6A_ST21_ODISHA,21,375,Kendujhar,21,Odisha,kendujhar,normalized_name,1.000
+21,Odisha,2107,Mayurbhanj,mayurbhanj,130731,EC6A_ST21_ODISHA,21,376,Mayurbhanj,21,Odisha,mayurbhanj,normalized_name,1.000
+21,Odisha,2108,Baleshwar,baleshwar,103967,EC6A_ST21_ODISHA,21,377,Baleshwar,21,Odisha,baleshwar,normalized_name,1.000
+21,Odisha,2109,Bhadrak,bhadrak,60675,EC6A_ST21_ODISHA,21,378,Bhadrak,21,Odisha,bhadrak,normalized_name,1.000
+21,Odisha,2110,Kendrapara,kendrapara,74056,EC6A_ST21_ODISHA,21,379,Kendrapara,21,Odisha,kendrapara,normalized_name,1.000
+21,Odisha,2111,Jagatsinghapur,jagatsinghapur,60426,EC6A_ST21_ODISHA,21,380,Jagatsinghapur,21,Odisha,jagatsinghapur,normalized_name,1.000
+21,Odisha,2112,Cuttack,cuttack,138607,EC6A_ST21_ODISHA,21,381,Cuttack,21,Odisha,cuttack,normalized_name,1.000
+21,Odisha,2113,Jajapur,jajapur,125121,EC6A_ST21_ODISHA,21,382,Jajapur,21,Odisha,jajapur,normalized_name,1.000
+21,Odisha,2114,Dhenkanal,dhenkanal,47565,EC6A_ST21_ODISHA,21,383,Dhenkanal,21,Odisha,dhenkanal,normalized_name,1.000
+21,Odisha,2115,Anugul,anugul,61492,EC6A_ST21_ODISHA,21,384,Anugul,21,Odisha,anugul,normalized_name,1.000
+21,Odisha,2116,Nayagarh,nayagarh,50601,EC6A_ST21_ODISHA,21,385,Nayagarh,21,Odisha,nayagarh,normalized_name,1.000
+21,Odisha,2117,Khordha,khordha,114764,EC6A_ST21_ODISHA,21,386,Khordha,21,Odisha,khordha,normalized_name,1.000
+21,Odisha,2118,Puri,puri,87855,EC6A_ST21_ODISHA,21,387,Puri,21,Odisha,puri,normalized_name,1.000
+21,Odisha,2119,Ganjam,ganjam,171516,EC6A_ST21_ODISHA,21,388,Ganjam,21,Odisha,ganjam,normalized_name,1.000
+21,Odisha,2120,Gajapati,gajapati,26025,EC6A_ST21_ODISHA,21,389,Gajapati,21,Odisha,gajapati,normalized_name,1.000
+21,Odisha,2121,Kandhamal,kandhamal,51744,EC6A_ST21_ODISHA,21,390,Kandhamal,21,Odisha,kandhamal,normalized_name,1.000
+21,Odisha,2122,Baudh,baudh,35767,EC6A_ST21_ODISHA,21,391,Baudh,21,Odisha,baudh,normalized_name,1.000
+21,Odisha,2123,Subarnapur,subarnapur,38201,EC6A_ST21_ODISHA,21,392,Subarnapur,21,Odisha,subarnapur,normalized_name,1.000
+21,Odisha,2124,Balangir,balangir,88798,EC6A_ST21_ODISHA,21,393,Balangir,21,Odisha,balangir,normalized_name,1.000
+21,Odisha,2125,Nuapada,nuapada,21037,EC6A_ST21_ODISHA,21,394,Nuapada,21,Odisha,nuapada,normalized_name,1.000
+21,Odisha,2126,Kalahandi,kalahandi,67800,EC6A_ST21_ODISHA,21,395,Kalahandi,21,Odisha,kalahandi,normalized_name,1.000
+21,Odisha,2127,Rayagada,rayagada,36738,EC6A_ST21_ODISHA,21,396,Rayagada,21,Odisha,rayagada,normalized_name,1.000
+21,Odisha,2128,Nabarangapur,nabarangapur,46928,EC6A_ST21_ODISHA,21,397,Nabarangapur,21,Odisha,nabarangapur,normalized_name,1.000
+21,Odisha,2129,Koraput,koraput,55089,EC6A_ST21_ODISHA,21,398,Koraput,21,Odisha,koraput,normalized_name,1.000
+21,Odisha,2130,Malkangiri,malkangiri,17634,EC6A_ST21_ODISHA,21,399,Malkangiri,21,Odisha,malkangiri,normalized_name,1.000
+22,Chhattisgarh,2201,Koriya,koriya,14442,EC6A_ST22_CHATTISHGARH,22,400,Koriya,22,Chhattisgarh,koriya,normalized_name,1.000
+22,Chhattisgarh,2202,Surguja,surguja,35420,EC6A_ST22_CHATTISHGARH,22,401,Surguja,22,Chhattisgarh,surguja,normalized_name,1.000
+22,Chhattisgarh,2203,Jashpur,jashpur,13824,EC6A_ST22_CHATTISHGARH,22,402,Jashpur,22,Chhattisgarh,jashpur,normalized_name,1.000
+22,Chhattisgarh,2204,Raigarh,raigarh,29946,EC6A_ST22_CHATTISHGARH,22,403,Raigarh,22,Chhattisgarh,raigarh,normalized_name,1.000
+22,Chhattisgarh,2205,Korba,korba,118335,EC6A_ST22_CHATTISHGARH,22,404,Korba,22,Chhattisgarh,korba,normalized_name,1.000
+22,Chhattisgarh,2206,Janjgir - Champa,janjgir champa,31505,EC6A_ST22_CHATTISHGARH,22,405,Janjgir - Champa,22,Chhattisgarh,janjgir champa,normalized_name,1.000
+22,Chhattisgarh,2207,Bilaspur,bilaspur,55132,EC6A_ST22_CHATTISHGARH,22,406,Bilaspur,22,Chhattisgarh,bilaspur,normalized_name,1.000
+22,Chhattisgarh,2208,Kabeerdham,kabeerdham,48496,EC6A_ST22_CHATTISHGARH,22,407,Kabeerdham,22,Chhattisgarh,kabeerdham,normalized_name,1.000
+22,Chhattisgarh,2209,Rajnandgaon,rajnandgaon,42900,EC6A_ST22_CHATTISHGARH,22,408,Rajnandgaon,22,Chhattisgarh,rajnandgaon,normalized_name,1.000
+22,Chhattisgarh,2210,Durg,durg,88570,EC6A_ST22_CHATTISHGARH,22,409,Durg,22,Chhattisgarh,durg,normalized_name,1.000
+22,Chhattisgarh,2211,Raipur,raipur,107660,EC6A_ST22_CHATTISHGARH,22,410,Raipur,22,Chhattisgarh,raipur,normalized_name,1.000
+22,Chhattisgarh,2212,Mahasamund,mahasamund,22910,EC6A_ST22_CHATTISHGARH,22,411,Mahasamund,22,Chhattisgarh,mahasamund,normalized_name,1.000
+22,Chhattisgarh,2213,Dhamtari,dhamtari,22491,EC6A_ST22_CHATTISHGARH,22,412,Dhamtari,22,Chhattisgarh,dhamtari,normalized_name,1.000
+22,Chhattisgarh,2214,Uttar Bastar Kanker,uttar bastar kanker,69803,EC6A_ST22_CHATTISHGARH,22,413,Uttar Bastar Kanker,22,Chhattisgarh,uttar bastar kanker,normalized_name,1.000
+22,Chhattisgarh,2215,Bastar,bastar,28007,EC6A_ST22_CHATTISHGARH,22,414,Bastar,22,Chhattisgarh,bastar,normalized_name,1.000
+22,Chhattisgarh,2216,Narayanpur,narayanpur,2345,EC6A_ST22_CHATTISHGARH,22,415,Narayanpur,22,Chhattisgarh,narayanpur,normalized_name,1.000
+22,Chhattisgarh,2217,Dakshin Bastar Dantewada,dakshin bastar dantewada,39353,EC6A_ST22_CHATTISHGARH,22,416,Dakshin Bastar Dantewada,22,Chhattisgarh,dakshin bastar dantewada,normalized_name,1.000
+22,Chhattisgarh,2218,Bijapur,bijapur,2522,EC6A_ST22_CHATTISHGARH,22,417,Bijapur,22,Chhattisgarh,bijapur,normalized_name,1.000
+23,Madhya Pradesh,2301,Sheopur,sheopur,11270,EC6A_ST23_MADHYA_PRADESH,23,418,Sheopur,23,Madhya Pradesh,sheopur,normalized_name,1.000
+23,Madhya Pradesh,2302,Morena,morena,55639,EC6A_ST23_MADHYA_PRADESH,23,419,Morena,23,Madhya Pradesh,morena,normalized_name,1.000
+23,Madhya Pradesh,2303,Bhind,bhind,30617,EC6A_ST23_MADHYA_PRADESH,23,420,Bhind,23,Madhya Pradesh,bhind,normalized_name,1.000
+23,Madhya Pradesh,2304,Gwalior,gwalior,104437,EC6A_ST23_MADHYA_PRADESH,23,421,Gwalior,23,Madhya Pradesh,gwalior,normalized_name,1.000
+23,Madhya Pradesh,2305,Datia,datia,18627,EC6A_ST23_MADHYA_PRADESH,23,422,Datia,23,Madhya Pradesh,datia,normalized_name,1.000
+23,Madhya Pradesh,2306,Shivpuri,shivpuri,46925,EC6A_ST23_MADHYA_PRADESH,23,423,Shivpuri,23,Madhya Pradesh,shivpuri,normalized_name,1.000
+23,Madhya Pradesh,2307,Tikamgarh,tikamgarh,28837,EC6A_ST23_MADHYA_PRADESH,23,424,Tikamgarh,23,Madhya Pradesh,tikamgarh,normalized_name,1.000
+23,Madhya Pradesh,2308,Chhatarpur,chhatarpur,60355,EC6A_ST23_MADHYA_PRADESH,23,425,Chhatarpur,23,Madhya Pradesh,chhatarpur,normalized_name,1.000
+23,Madhya Pradesh,2309,Panna,panna,21441,EC6A_ST23_MADHYA_PRADESH,23,426,Panna,23,Madhya Pradesh,panna,normalized_name,1.000
+23,Madhya Pradesh,2310,Sagar,sagar,125469,EC6A_ST23_MADHYA_PRADESH,23,427,Sagar,23,Madhya Pradesh,sagar,normalized_name,1.000
+23,Madhya Pradesh,2311,Damoh,damoh,70535,EC6A_ST23_MADHYA_PRADESH,23,428,Damoh,23,Madhya Pradesh,damoh,normalized_name,1.000
+23,Madhya Pradesh,2312,Satna,satna,91483,EC6A_ST23_MADHYA_PRADESH,23,429,Satna,23,Madhya Pradesh,satna,normalized_name,1.000
+23,Madhya Pradesh,2313,Rewa,rewa,43974,EC6A_ST23_MADHYA_PRADESH,23,430,Rewa,23,Madhya Pradesh,rewa,normalized_name,1.000
+23,Madhya Pradesh,2314,Umaria,umaria,8772,EC6A_ST23_MADHYA_PRADESH,23,431,Umaria,23,Madhya Pradesh,umaria,normalized_name,1.000
+23,Madhya Pradesh,2315,Neemuch,neemuch,44084,EC6A_ST23_MADHYA_PRADESH,23,432,Neemuch,23,Madhya Pradesh,neemuch,normalized_name,1.000
+23,Madhya Pradesh,2316,Mandsaur,mandsaur,52120,EC6A_ST23_MADHYA_PRADESH,23,433,Mandsaur,23,Madhya Pradesh,mandsaur,normalized_name,1.000
+23,Madhya Pradesh,2317,Ratlam,ratlam,59803,EC6A_ST23_MADHYA_PRADESH,23,434,Ratlam,23,Madhya Pradesh,ratlam,normalized_name,1.000
+23,Madhya Pradesh,2318,Ujjain,ujjain,119683,EC6A_ST23_MADHYA_PRADESH,23,435,Ujjain,23,Madhya Pradesh,ujjain,normalized_name,1.000
+23,Madhya Pradesh,2319,Shajapur,shajapur,34552,EC6A_ST23_MADHYA_PRADESH,23,436,Shajapur,23,Madhya Pradesh,shajapur,normalized_name,1.000
+23,Madhya Pradesh,2320,Dewas,dewas,57625,EC6A_ST23_MADHYA_PRADESH,23,437,Dewas,23,Madhya Pradesh,dewas,normalized_name,1.000
+23,Madhya Pradesh,2321,Dhar,dhar,45109,EC6A_ST23_MADHYA_PRADESH,23,438,Dhar,23,Madhya Pradesh,dhar,normalized_name,1.000
+23,Madhya Pradesh,2322,Indore,indore,142295,EC6A_ST23_MADHYA_PRADESH,23,439,Indore,23,Madhya Pradesh,indore,normalized_name,1.000
+23,Madhya Pradesh,2323,West Nimar,khargone,46100,EC6A_ST23_MADHYA_PRADESH,23,440,Khargone (West Nimar),23,Madhya Pradesh,khargone,normalized_name,1.000
+23,Madhya Pradesh,2324,Barwani,barwani,27597,EC6A_ST23_MADHYA_PRADESH,23,441,Barwani,23,Madhya Pradesh,barwani,normalized_name,1.000
+23,Madhya Pradesh,2325,Rajgarh,rajgarh,37258,EC6A_ST23_MADHYA_PRADESH,23,442,Rajgarh,23,Madhya Pradesh,rajgarh,normalized_name,1.000
+23,Madhya Pradesh,2326,Vidisha,vidisha,33795,EC6A_ST23_MADHYA_PRADESH,23,443,Vidisha,23,Madhya Pradesh,vidisha,normalized_name,1.000
+23,Madhya Pradesh,2327,Bhopal,bhopal,83451,EC6A_ST23_MADHYA_PRADESH,23,444,Bhopal,23,Madhya Pradesh,bhopal,normalized_name,1.000
+23,Madhya Pradesh,2328,Sehore,sehore,33500,EC6A_ST23_MADHYA_PRADESH,23,445,Sehore,23,Madhya Pradesh,sehore,normalized_name,1.000
+23,Madhya Pradesh,2329,Raisen,raisen,30060,EC6A_ST23_MADHYA_PRADESH,23,446,Raisen,23,Madhya Pradesh,raisen,normalized_name,1.000
+23,Madhya Pradesh,2330,Betul,betul,47829,EC6A_ST23_MADHYA_PRADESH,23,447,Betul,23,Madhya Pradesh,betul,normalized_name,1.000
+23,Madhya Pradesh,2331,Harda,harda,15317,EC6A_ST23_MADHYA_PRADESH,23,448,Harda,23,Madhya Pradesh,harda,normalized_name,1.000
+23,Madhya Pradesh,2332,Hoshangabad,hoshangabad,28820,EC6A_ST23_MADHYA_PRADESH,23,449,Hoshangabad,23,Madhya Pradesh,hoshangabad,normalized_name,1.000
+23,Madhya Pradesh,2333,Katni,katni,36673,EC6A_ST23_MADHYA_PRADESH,23,450,Katni,23,Madhya Pradesh,katni,normalized_name,1.000
+23,Madhya Pradesh,2334,Jabalpur,jabalpur,71162,EC6A_ST23_MADHYA_PRADESH,23,451,Jabalpur,23,Madhya Pradesh,jabalpur,normalized_name,1.000
+23,Madhya Pradesh,2335,Narsimhapur,narsimhapur,22785,EC6A_ST23_MADHYA_PRADESH,23,452,Narsimhapur,23,Madhya Pradesh,narsimhapur,normalized_name,1.000
+23,Madhya Pradesh,2336,Dindori,dindori,12237,EC6A_ST23_MADHYA_PRADESH,23,453,Dindori,23,Madhya Pradesh,dindori,normalized_name,1.000
+23,Madhya Pradesh,2337,Mandla,mandla,19019,EC6A_ST23_MADHYA_PRADESH,23,454,Mandla,23,Madhya Pradesh,mandla,normalized_name,1.000
+23,Madhya Pradesh,2338,Chhindwara,chhindwara,57639,EC6A_ST23_MADHYA_PRADESH,23,455,Chhindwara,23,Madhya Pradesh,chhindwara,normalized_name,1.000
+23,Madhya Pradesh,2339,Seoni,seoni,41009,EC6A_ST23_MADHYA_PRADESH,23,456,Seoni,23,Madhya Pradesh,seoni,normalized_name,1.000
+23,Madhya Pradesh,2340,Balaghat,balaghat,48281,EC6A_ST23_MADHYA_PRADESH,23,457,Balaghat,23,Madhya Pradesh,balaghat,normalized_name,1.000
+23,Madhya Pradesh,2341,Guna,guna,30115,EC6A_ST23_MADHYA_PRADESH,23,458,Guna,23,Madhya Pradesh,guna,normalized_name,1.000
+23,Madhya Pradesh,2342,Ashoknagar,ashoknagar,17192,EC6A_ST23_MADHYA_PRADESH,23,459,Ashoknagar,23,Madhya Pradesh,ashoknagar,normalized_name,1.000
+23,Madhya Pradesh,2343,Shahdol,shahdol,19829,EC6A_ST23_MADHYA_PRADESH,23,460,Shahdol,23,Madhya Pradesh,shahdol,normalized_name,1.000
+23,Madhya Pradesh,2344,Anuppur,anuppur,17560,EC6A_ST23_MADHYA_PRADESH,23,461,Anuppur,23,Madhya Pradesh,anuppur,normalized_name,1.000
+23,Madhya Pradesh,2345,Sidhi,sidhi,15435,EC6A_ST23_MADHYA_PRADESH,23,462,Sidhi,23,Madhya Pradesh,sidhi,normalized_name,1.000
+23,Madhya Pradesh,2346,Singrauli,singrauli,9308,EC6A_ST23_MADHYA_PRADESH,23,463,Singrauli,23,Madhya Pradesh,singrauli,normalized_name,1.000
+23,Madhya Pradesh,2347,Jhabua,jhabua,19821,EC6A_ST23_MADHYA_PRADESH,23,464,Jhabua,23,Madhya Pradesh,jhabua,normalized_name,1.000
+23,Madhya Pradesh,2348,Alirajpur,alirajpur,10117,EC6A_ST23_MADHYA_PRADESH,23,465,Alirajpur,23,Madhya Pradesh,alirajpur,normalized_name,1.000
+23,Madhya Pradesh,2349,East Nimar,khandwa,28697,EC6A_ST23_MADHYA_PRADESH,23,466,Khandwa (East Nimar),23,Madhya Pradesh,khandwa,normalized_name,1.000
+23,Madhya Pradesh,2350,Burhanpur,burhanpur,18401,EC6A_ST23_MADHYA_PRADESH,23,467,Burhanpur,23,Madhya Pradesh,burhanpur,normalized_name,1.000
+24,Gujarat,2401,Kachchh,kachchh,99011,EC6A_ST24_GUJRAT,24,468,Kachchh,24,Gujarat,kachchh,normalized_name,1.000
+24,Gujarat,2402,Banas Kantha,banas kantha,324878,EC6A_ST24_GUJRAT,24,469,Banas Kantha,24,Gujarat,banas kantha,normalized_name,1.000
+24,Gujarat,2403,Patan,patan,122530,EC6A_ST24_GUJRAT,24,470,Patan,24,Gujarat,patan,normalized_name,1.000
+24,Gujarat,2404,Mahesana,mahesana,204543,EC6A_ST24_GUJRAT,24,471,Mahesana,24,Gujarat,mahesana,normalized_name,1.000
+24,Gujarat,2405,Sabar Kantha,sabar kantha,258366,EC6A_ST24_GUJRAT,24,472,Sabar Kantha,24,Gujarat,sabar kantha,normalized_name,1.000
+24,Gujarat,2406,Gandhinagar,gandhinagar,100834,EC6A_ST24_GUJRAT,24,473,Gandhinagar,24,Gujarat,gandhinagar,normalized_name,1.000
+24,Gujarat,2407,Ahmadabad,ahmadabad,353015,EC6A_ST24_GUJRAT,24,474,Ahmadabad,24,Gujarat,ahmadabad,normalized_name,1.000
+24,Gujarat,2408,Surendranagar,surendranagar,94456,EC6A_ST24_GUJRAT,24,475,Surendranagar,24,Gujarat,surendranagar,normalized_name,1.000
+24,Gujarat,2409,Rajkot,rajkot,209660,EC6A_ST24_GUJRAT,24,476,Rajkot,24,Gujarat,rajkot,normalized_name,1.000
+24,Gujarat,2410,Jamnagar,jamnagar,144420,EC6A_ST24_GUJRAT,24,477,Jamnagar,24,Gujarat,jamnagar,normalized_name,1.000
+24,Gujarat,2411,Porbandar,porbandar,48591,EC6A_ST24_GUJRAT,24,478,Porbandar,24,Gujarat,porbandar,normalized_name,1.000
+24,Gujarat,2412,Junagadh,junagadh,126063,EC6A_ST24_GUJRAT,24,479,Junagadh,24,Gujarat,junagadh,normalized_name,1.000
+24,Gujarat,2413,Amreli,amreli,61588,EC6A_ST24_GUJRAT,24,480,Amreli,24,Gujarat,amreli,normalized_name,1.000
+24,Gujarat,2414,Bhavnagar,bhavnagar,273285,EC6A_ST24_GUJRAT,24,481,Bhavnagar,24,Gujarat,bhavnagar,normalized_name,1.000
+24,Gujarat,2415,Anand,anand,196496,EC6A_ST24_GUJRAT,24,482,Anand,24,Gujarat,anand,normalized_name,1.000
+24,Gujarat,2416,Kheda,kheda,263944,EC6A_ST24_GUJRAT,24,483,Kheda,24,Gujarat,kheda,normalized_name,1.000
+24,Gujarat,2417,Panch Mahals,panch mahals,147169,EC6A_ST24_GUJRAT,24,484,Panch Mahals,24,Gujarat,panch mahals,normalized_name,1.000
+24,Gujarat,2418,Dohad,dohad,25854,EC6A_ST24_GUJRAT,24,485,Dohad,24,Gujarat,dohad,normalized_name,1.000
+24,Gujarat,2419,Vadodara,vadodara,222128,EC6A_ST24_GUJRAT,24,486,Vadodara,24,Gujarat,vadodara,normalized_name,1.000
+24,Gujarat,2420,Narmada,narmada,28017,EC6A_ST24_GUJRAT,24,487,Narmada,24,Gujarat,narmada,normalized_name,1.000
+24,Gujarat,2421,Bharuch,bharuch,81303,EC6A_ST24_GUJRAT,24,488,Bharuch,24,Gujarat,bharuch,normalized_name,1.000
+24,Gujarat,2422,The Dangs,dangs,7136,EC6A_ST24_GUJRAT,24,489,The Dangs,24,Gujarat,dangs,normalized_name,1.000
+24,Gujarat,2423,Navsari,navsari,78181,EC6A_ST24_GUJRAT,24,490,Navsari,24,Gujarat,navsari,normalized_name,1.000
+24,Gujarat,2424,Valsad,valsad,61960,EC6A_ST24_GUJRAT,24,491,Valsad,24,Gujarat,valsad,normalized_name,1.000
+24,Gujarat,2425,Surat,surat,367817,EC6A_ST24_GUJRAT,24,492,Surat,24,Gujarat,surat,normalized_name,1.000
+24,Gujarat,2426,Tapi,tapi,71684,EC6A_ST24_GUJRAT,24,493,Tapi,24,Gujarat,tapi,normalized_name,1.000
+25,Daman and Diu,2501,DIU,diu,2290,EC6A_ST25_DAMAN_AND_DIU,25,494,Diu,25,Daman and Diu,diu,normalized_name,1.000
+25,Daman and Diu,2502,DAMAN,daman,8216,EC6A_ST25_DAMAN_AND_DIU,25,495,Daman,25,Daman and Diu,daman,normalized_name,1.000
+26,Dadra and Nagar Haveli,2601,DADRA & NAGAR HAVELI,dadra and nagar haveli,11183,EC6A_ST26_D_AND_N_HAVELI,26,496,Dadra & Nagar Haveli,26,Dadra and Nagar Haveli,dadra and nagar haveli,normalized_name,1.000
+27,Maharashtra,2701,Nandurbar,nandurbar,46787,EC6A_ST27_MAHARASHTRA,27,497,Nandurbar,27,Maharashtra,nandurbar,normalized_name,1.000
+27,Maharashtra,2702,Dhule,dhule,72618,EC6A_ST27_MAHARASHTRA,27,498,Dhule,27,Maharashtra,dhule,normalized_name,1.000
+27,Maharashtra,2703,Jalgaon,jalgaon,158644,EC6A_ST27_MAHARASHTRA,27,499,Jalgaon,27,Maharashtra,jalgaon,normalized_name,1.000
+27,Maharashtra,2704,Buldana,buldana,94972,EC6A_ST27_MAHARASHTRA,27,500,Buldana,27,Maharashtra,buldana,normalized_name,1.000
+27,Maharashtra,2705,Akola,akola,123805,EC6A_ST27_MAHARASHTRA,27,501,Akola,27,Maharashtra,akola,normalized_name,1.000
+27,Maharashtra,2706,Washim,washim,32481,EC6A_ST27_MAHARASHTRA,27,502,Washim,27,Maharashtra,washim,normalized_name,1.000
+27,Maharashtra,2707,Amravati,amravati,136909,EC6A_ST27_MAHARASHTRA,27,503,Amravati,27,Maharashtra,amravati,normalized_name,1.000
+27,Maharashtra,2708,Wardha,wardha,67559,EC6A_ST27_MAHARASHTRA,27,504,Wardha,27,Maharashtra,wardha,normalized_name,1.000
+27,Maharashtra,2709,Nagpur,nagpur,258711,EC6A_ST27_MAHARASHTRA,27,505,Nagpur,27,Maharashtra,nagpur,normalized_name,1.000
+27,Maharashtra,2710,Bhandara,bhandara,86535,EC6A_ST27_MAHARASHTRA,27,506,Bhandara,27,Maharashtra,bhandara,normalized_name,1.000
+27,Maharashtra,2711,Gondiya,gondiya,70183,EC6A_ST27_MAHARASHTRA,27,507,Gondiya,27,Maharashtra,gondiya,normalized_name,1.000
+27,Maharashtra,2712,Gadchiroli,gadchiroli,48074,EC6A_ST27_MAHARASHTRA,27,508,Gadchiroli,27,Maharashtra,gadchiroli,normalized_name,1.000
+27,Maharashtra,2713,Chandrapur,chandrapur,102993,EC6A_ST27_MAHARASHTRA,27,509,Chandrapur,27,Maharashtra,chandrapur,normalized_name,1.000
+27,Maharashtra,2714,Yavatmal,yavatmal,68174,EC6A_ST27_MAHARASHTRA,27,510,Yavatmal,27,Maharashtra,yavatmal,normalized_name,1.000
+27,Maharashtra,2715,Nanded,nanded,93961,EC6A_ST27_MAHARASHTRA,27,511,Nanded,27,Maharashtra,nanded,normalized_name,1.000
+27,Maharashtra,2716,Hingoli,hingoli,35841,EC6A_ST27_MAHARASHTRA,27,512,Hingoli,27,Maharashtra,hingoli,normalized_name,1.000
+27,Maharashtra,2717,Parbhani,parbhani,59812,EC6A_ST27_MAHARASHTRA,27,513,Parbhani,27,Maharashtra,parbhani,normalized_name,1.000
+27,Maharashtra,2718,Jalna,jalna,97618,EC6A_ST27_MAHARASHTRA,27,514,Jalna,27,Maharashtra,jalna,normalized_name,1.000
+27,Maharashtra,2719,Aurangabad,aurangabad,143358,EC6A_ST27_MAHARASHTRA,27,515,Aurangabad,27,Maharashtra,aurangabad,normalized_name,1.000
+27,Maharashtra,2720,Nashik,nashik,214336,EC6A_ST27_MAHARASHTRA,27,516,Nashik,27,Maharashtra,nashik,normalized_name,1.000
+27,Maharashtra,2721,THANE,thane,438706,EC6A_ST27_MAHARASHTRA,27,517,Thane,27,Maharashtra,thane,normalized_name,1.000
+27,Maharashtra,2722,Mumbai Suburban,mumbai suburban,465416,EC6A_ST27_MAHARASHTRA,27,518,Mumbai Suburban,27,Maharashtra,mumbai suburban,normalized_name,1.000
+27,Maharashtra,2723,Mumbai,mumbai,261259,EC6A_ST27_MAHARASHTRA,27,519,Mumbai,27,Maharashtra,mumbai,normalized_name,1.000
+27,Maharashtra,2724,Raigarh,raigarh,101672,EC6A_ST27_MAHARASHTRA,27,520,Raigarh,27,Maharashtra,raigarh,normalized_name,1.000
+27,Maharashtra,2725,Pune,pune,514469,EC6A_ST27_MAHARASHTRA,27,521,Pune,27,Maharashtra,pune,normalized_name,1.000
+27,Maharashtra,2726,Ahmadnagar,ahmadnagar,246417,EC6A_ST27_MAHARASHTRA,27,522,Ahmadnagar,27,Maharashtra,ahmadnagar,normalized_name,1.000
+27,Maharashtra,2727,Bid,bid,139347,EC6A_ST27_MAHARASHTRA,27,523,Bid,27,Maharashtra,bid,normalized_name,1.000
+27,Maharashtra,2728,Latur,latur,102934,EC6A_ST27_MAHARASHTRA,27,524,Latur,27,Maharashtra,latur,normalized_name,1.000
+27,Maharashtra,2729,Osmanabad,osmanabad,124365,EC6A_ST27_MAHARASHTRA,27,525,Osmanabad,27,Maharashtra,osmanabad,normalized_name,1.000
+27,Maharashtra,2730,Solapur,solapur,373286,EC6A_ST27_MAHARASHTRA,27,526,Solapur,27,Maharashtra,solapur,normalized_name,1.000
+27,Maharashtra,2731,Satara,satara,383647,EC6A_ST27_MAHARASHTRA,27,527,Satara,27,Maharashtra,satara,normalized_name,1.000
+27,Maharashtra,2732,Ratnagiri,ratnagiri,72310,EC6A_ST27_MAHARASHTRA,27,528,Ratnagiri,27,Maharashtra,ratnagiri,normalized_name,1.000
+27,Maharashtra,2733,Sindhudurg,sindhudurg,51216,EC6A_ST27_MAHARASHTRA,27,529,Sindhudurg,27,Maharashtra,sindhudurg,normalized_name,1.000
+27,Maharashtra,2734,Kolhapur,kolhapur,570867,EC6A_ST27_MAHARASHTRA,27,530,Kolhapur,27,Maharashtra,kolhapur,normalized_name,1.000
+27,Maharashtra,2735,Sangli,sangli,278060,EC6A_ST27_MAHARASHTRA,27,531,Sangli,27,Maharashtra,sangli,normalized_name,1.000
+29,Karnataka,2901,Belgaum,belgaum,172947,EC6A_ST29_KARNATAKA,29,555,Belgaum,29,Karnataka,belgaum,normalized_name,1.000
+29,Karnataka,2902,Bagalkot,bagalkot,69335,EC6A_ST29_KARNATAKA,29,556,Bagalkot,29,Karnataka,bagalkot,normalized_name,1.000
+29,Karnataka,2903,Bijapur,bijapur,60427,EC6A_ST29_KARNATAKA,29,557,Bijapur,29,Karnataka,bijapur,normalized_name,1.000
+29,Karnataka,2904,Bidar,bidar,49751,EC6A_ST29_KARNATAKA,29,558,Bidar,29,Karnataka,bidar,normalized_name,1.000
+29,Karnataka,2905,Raichur,raichur,53796,EC6A_ST29_KARNATAKA,29,559,Raichur,29,Karnataka,raichur,normalized_name,1.000
+29,Karnataka,2906,Koppal,koppal,36666,EC6A_ST29_KARNATAKA,29,560,Koppal,29,Karnataka,koppal,normalized_name,1.000
+29,Karnataka,2907,Gadag,gadag,40073,EC6A_ST29_KARNATAKA,29,561,Gadag,29,Karnataka,gadag,normalized_name,1.000
+29,Karnataka,2908,Dharwad,dharwad,72877,EC6A_ST29_KARNATAKA,29,562,Dharwad,29,Karnataka,dharwad,normalized_name,1.000
+29,Karnataka,2909,Uttara Kannada,uttara kannada,52677,EC6A_ST29_KARNATAKA,29,563,Uttara Kannada,29,Karnataka,uttara kannada,normalized_name,1.000
+29,Karnataka,2910,Haveri,haveri,53793,EC6A_ST29_KARNATAKA,29,564,Haveri,29,Karnataka,haveri,normalized_name,1.000
+29,Karnataka,2911,Bellary,bellary,90064,EC6A_ST29_KARNATAKA,29,565,Bellary,29,Karnataka,bellary,normalized_name,1.000
+29,Karnataka,2912,Chitradurga,chitradurga,48664,EC6A_ST29_KARNATAKA,29,566,Chitradurga,29,Karnataka,chitradurga,normalized_name,1.000
+29,Karnataka,2913,Davanagere,davanagere,59805,EC6A_ST29_KARNATAKA,29,567,Davanagere,29,Karnataka,davanagere,normalized_name,1.000
+29,Karnataka,2914,Shimoga,shimoga,102397,EC6A_ST29_KARNATAKA,29,568,Shimoga,29,Karnataka,shimoga,normalized_name,1.000
+29,Karnataka,2915,Udupi,udupi,87221,EC6A_ST29_KARNATAKA,29,569,Udupi,29,Karnataka,udupi,normalized_name,1.000
+29,Karnataka,2916,Chikmagalur,chikmagalur,72484,EC6A_ST29_KARNATAKA,29,570,Chikmagalur,29,Karnataka,chikmagalur,normalized_name,1.000
+29,Karnataka,2917,Tumkur,tumkur,164822,EC6A_ST29_KARNATAKA,29,571,Tumkur,29,Karnataka,tumkur,normalized_name,1.000
+29,Karnataka,2918,Bangalore,bangalore,408130,EC6A_ST29_KARNATAKA,29,572,Bangalore,29,Karnataka,bangalore,normalized_name,1.000
+29,Karnataka,2919,Mandya,mandya,171520,EC6A_ST29_KARNATAKA,29,573,Mandya,29,Karnataka,mandya,normalized_name,1.000
+29,Karnataka,2920,Hassan,hassan,140976,EC6A_ST29_KARNATAKA,29,574,Hassan,29,Karnataka,hassan,normalized_name,1.000
+29,Karnataka,2921,Dakshina Kannada,dakshina kannada,219110,EC6A_ST29_KARNATAKA,29,575,Dakshina Kannada,29,Karnataka,dakshina kannada,normalized_name,1.000
+29,Karnataka,2922,Kodagu,kodagu,11586,EC6A_ST29_KARNATAKA,29,576,Kodagu,29,Karnataka,kodagu,normalized_name,1.000
+29,Karnataka,2923,Mysore,mysore,140232,EC6A_ST29_KARNATAKA,29,577,Mysore,29,Karnataka,mysore,normalized_name,1.000
+29,Karnataka,2924,Chamarajanagar,chamarajanagar,85671,EC6A_ST29_KARNATAKA,29,578,Chamarajanagar,29,Karnataka,chamarajanagar,normalized_name,1.000
+29,Karnataka,2925,Gulbarga,gulbarga,59303,EC6A_ST29_KARNATAKA,29,579,Gulbarga,29,Karnataka,gulbarga,normalized_name,1.000
+29,Karnataka,2926,Yadgir,yadgir,34084,EC6A_ST29_KARNATAKA,29,580,Yadgir,29,Karnataka,yadgir,normalized_name,1.000
+29,Karnataka,2927,Kolar,kolar,96410,EC6A_ST29_KARNATAKA,29,581,Kolar,29,Karnataka,kolar,normalized_name,1.000
+29,Karnataka,2928,Chikkaballapura,chikkaballapura,80391,EC6A_ST29_KARNATAKA,29,582,Chikkaballapura,29,Karnataka,chikkaballapura,normalized_name,1.000
+29,Karnataka,2929,Bangalore Rural,bangalore rural,61356,EC6A_ST29_KARNATAKA,29,583,Bangalore Rural,29,Karnataka,bangalore rural,normalized_name,1.000
+29,Karnataka,2930,Ramanagara,ramanagara,83980,EC6A_ST29_KARNATAKA,29,584,Ramanagara,29,Karnataka,ramanagara,normalized_name,1.000
+30,Goa,3001,NORTH GOA,north goa,56724,EC6A_ST30_GOA,30,585,North Goa,30,Goa,north goa,normalized_name,1.000
+30,Goa,3002,SOUTH GOA,south goa,39863,EC6A_ST30_GOA,30,586,South Goa,30,Goa,south goa,normalized_name,1.000
+31,Lakshadweep,3101,Lakshadweep,lakshadweep,3404,EC6A_ST31_LAKSHADWEEP,31,587,Lakshadweep,31,Lakshadweep,lakshadweep,normalized_name,1.000
+32,Kerala,3201,Kasaragod,kasaragod,142836,EC6A_ST32_KERALA,32,588,Kasaragod,32,Kerala,kasaragod,normalized_name,1.000
+32,Kerala,3202,Kannur,kannur,252078,EC6A_ST32_KERALA,32,589,Kannur,32,Kerala,kannur,normalized_name,1.000
+32,Kerala,3203,Wayanad,wayanad,93348,EC6A_ST32_KERALA,32,590,Wayanad,32,Kerala,wayanad,normalized_name,1.000
+32,Kerala,3204,Kozhikode,kozhikode,242280,EC6A_ST32_KERALA,32,591,Kozhikode,32,Kerala,kozhikode,normalized_name,1.000
+32,Kerala,3205,Malappuram,malappuram,334250,EC6A_ST32_KERALA,32,592,Malappuram,32,Kerala,malappuram,normalized_name,1.000
+32,Kerala,3206,Palakkad,palakkad,246234,EC6A_ST32_KERALA,32,593,Palakkad,32,Kerala,palakkad,normalized_name,1.000
+32,Kerala,3207,Thrissur,thrissur,286832,EC6A_ST32_KERALA,32,594,Thrissur,32,Kerala,thrissur,normalized_name,1.000
+32,Kerala,3208,Ernakulam,ernakulam,386584,EC6A_ST32_KERALA,32,595,Ernakulam,32,Kerala,ernakulam,normalized_name,1.000
+32,Kerala,3209,Idukki,idukki,149656,EC6A_ST32_KERALA,32,596,Idukki,32,Kerala,idukki,normalized_name,1.000
+32,Kerala,3210,Kottayam,kottayam,226108,EC6A_ST32_KERALA,32,597,Kottayam,32,Kerala,kottayam,normalized_name,1.000
+32,Kerala,3211,Alappuzha,alappuzha,202837,EC6A_ST32_KERALA,32,598,Alappuzha,32,Kerala,alappuzha,normalized_name,1.000
+32,Kerala,3212,Pathanamthitta,pathanamthitta,124056,EC6A_ST32_KERALA,32,599,Pathanamthitta,32,Kerala,pathanamthitta,normalized_name,1.000
+32,Kerala,3213,Kollam,kollam,231485,EC6A_ST32_KERALA,32,600,Kollam,32,Kerala,kollam,normalized_name,1.000
+32,Kerala,3214,Thiruvananthapuram,thiruvananthapuram,436420,EC6A_ST32_KERALA,32,601,Thiruvananthapuram,32,Kerala,thiruvananthapuram,normalized_name,1.000
+33,Tamil Nadu,3301,Thiruvallur,thiruvallur,136526,EC6A_ST33_TAMILNADU,33,602,Thiruvallur,33,Tamil Nadu,thiruvallur,normalized_name,1.000
+33,Tamil Nadu,3302,Chennai,chennai,333049,EC6A_ST33_TAMILNADU,33,603,Chennai,33,Tamil Nadu,chennai,normalized_name,1.000
+33,Tamil Nadu,3303,Kancheepuram,kancheepuram,181219,EC6A_ST33_TAMILNADU,33,604,Kancheepuram,33,Tamil Nadu,kancheepuram,normalized_name,1.000
+33,Tamil Nadu,3304,Vellore,vellore,265572,EC6A_ST33_TAMILNADU,33,605,Vellore,33,Tamil Nadu,vellore,normalized_name,1.000
+33,Tamil Nadu,3305,Tiruvannamalai,tiruvannamalai,214730,EC6A_ST33_TAMILNADU,33,606,Tiruvannamalai,33,Tamil Nadu,tiruvannamalai,normalized_name,1.000
+33,Tamil Nadu,3306,Viluppuram,viluppuram,275955,EC6A_ST33_TAMILNADU,33,607,Viluppuram,33,Tamil Nadu,viluppuram,normalized_name,1.000
+33,Tamil Nadu,3307,Salem,salem,288957,EC6A_ST33_TAMILNADU,33,608,Salem,33,Tamil Nadu,salem,normalized_name,1.000
+33,Tamil Nadu,3308,Namakkal,namakkal,185922,EC6A_ST33_TAMILNADU,33,609,Namakkal,33,Tamil Nadu,namakkal,normalized_name,1.000
+33,Tamil Nadu,3309,Erode,erode,184298,EC6A_ST33_TAMILNADU,33,610,Erode,33,Tamil Nadu,erode,normalized_name,1.000
+33,Tamil Nadu,3310,The Nilgiris,nilgiris,32081,EC6A_ST33_TAMILNADU,33,611,The Nilgiris,33,Tamil Nadu,nilgiris,normalized_name,1.000
+33,Tamil Nadu,3311,Dindigul,dindigul,150458,EC6A_ST33_TAMILNADU,33,612,Dindigul,33,Tamil Nadu,dindigul,normalized_name,1.000
+33,Tamil Nadu,3312,Karur,karur,78596,EC6A_ST33_TAMILNADU,33,613,Karur,33,Tamil Nadu,karur,normalized_name,1.000
+33,Tamil Nadu,3313,Tiruchirappalli,tiruchirappalli,210673,EC6A_ST33_TAMILNADU,33,614,Tiruchirappalli,33,Tamil Nadu,tiruchirappalli,normalized_name,1.000
+33,Tamil Nadu,3314,Perambalur,perambalur,77086,EC6A_ST33_TAMILNADU,33,615,Perambalur,33,Tamil Nadu,perambalur,normalized_name,1.000
+33,Tamil Nadu,3315,Ariyalur,ariyalur,118523,EC6A_ST33_TAMILNADU,33,616,Ariyalur,33,Tamil Nadu,ariyalur,normalized_name,1.000
+33,Tamil Nadu,3316,Cuddalore,cuddalore,191906,EC6A_ST33_TAMILNADU,33,617,Cuddalore,33,Tamil Nadu,cuddalore,normalized_name,1.000
+33,Tamil Nadu,3317,Nagapattinam,nagapattinam,65767,EC6A_ST33_TAMILNADU,33,618,Nagapattinam,33,Tamil Nadu,nagapattinam,normalized_name,1.000
+33,Tamil Nadu,3318,Thiruvarur,thiruvarur,83419,EC6A_ST33_TAMILNADU,33,619,Thiruvarur,33,Tamil Nadu,thiruvarur,normalized_name,1.000
+33,Tamil Nadu,3319,Thanjavur,thanjavur,159074,EC6A_ST33_TAMILNADU,33,620,Thanjavur,33,Tamil Nadu,thanjavur,normalized_name,1.000
+33,Tamil Nadu,3320,Pudukkottai,pudukkottai,72423,EC6A_ST33_TAMILNADU,33,621,Pudukkottai,33,Tamil Nadu,pudukkottai,normalized_name,1.000
+33,Tamil Nadu,3321,Sivaganga,sivaganga,50209,EC6A_ST33_TAMILNADU,33,622,Sivaganga,33,Tamil Nadu,sivaganga,normalized_name,1.000
+33,Tamil Nadu,3322,Madurai,madurai,169383,EC6A_ST33_TAMILNADU,33,623,Madurai,33,Tamil Nadu,madurai,normalized_name,1.000
+33,Tamil Nadu,3323,Theni,theni,73424,EC6A_ST33_TAMILNADU,33,624,Theni,33,Tamil Nadu,theni,normalized_name,1.000
+33,Tamil Nadu,3324,Virudhunagar,virudhunagar,136898,EC6A_ST33_TAMILNADU,33,625,Virudhunagar,33,Tamil Nadu,virudhunagar,normalized_name,1.000
+33,Tamil Nadu,3325,Ramanathapuram,ramanathapuram,49066,EC6A_ST33_TAMILNADU,33,626,Ramanathapuram,33,Tamil Nadu,ramanathapuram,normalized_name,1.000
+33,Tamil Nadu,3326,Thoothukkudi,thoothukkudi,170149,EC6A_ST33_TAMILNADU,33,627,Thoothukkudi,33,Tamil Nadu,thoothukkudi,normalized_name,1.000
+33,Tamil Nadu,3327,Tirunelveli,tirunelveli,316679,EC6A_ST33_TAMILNADU,33,628,Tirunelveli,33,Tamil Nadu,tirunelveli,normalized_name,1.000
+33,Tamil Nadu,3328,Kanniyakumari,kanniyakumari,96142,EC6A_ST33_TAMILNADU,33,629,Kanniyakumari,33,Tamil Nadu,kanniyakumari,normalized_name,1.000
+33,Tamil Nadu,3329,Dharmapuri,dharmapuri,79943,EC6A_ST33_TAMILNADU,33,630,Dharmapuri,33,Tamil Nadu,dharmapuri,normalized_name,1.000
+33,Tamil Nadu,3330,Krishnagiri,krishnagiri,119823,EC6A_ST33_TAMILNADU,33,631,Krishnagiri,33,Tamil Nadu,krishnagiri,normalized_name,1.000
+33,Tamil Nadu,3331,Coimbatore,coimbatore,248890,EC6A_ST33_TAMILNADU,33,632,Coimbatore,33,Tamil Nadu,coimbatore,normalized_name,1.000
+33,Tamil Nadu,3332,Tiruppur,tiruppur,212562,EC6A_ST33_TAMILNADU,33,633,Tiruppur,33,Tamil Nadu,tiruppur,normalized_name,1.000
+34,Puducherry,3401,YANAM,yanam,2601,EC6A_ST34_PUDUCHERRY,34,634,Yanam,34,Puducherry,yanam,normalized_name,1.000
+34,Puducherry,3402,Puducherry,puducherry,44105,EC6A_ST34_PUDUCHERRY,34,635,Puducherry,34,Puducherry,puducherry,normalized_name,1.000
+34,Puducherry,3403,MAHE,mahe,1845,EC6A_ST34_PUDUCHERRY,34,636,Mahe,34,Puducherry,mahe,normalized_name,1.000
+34,Puducherry,3404,Karaikal,karaikal,10601,EC6A_ST34_PUDUCHERRY,34,637,Karaikal,34,Puducherry,karaikal,normalized_name,1.000
+35,Andaman and Nicobar Islands,3501,Nicobars,nicobars,3883,EC6A_ST35_A_AND_N_ISLANDS,35,638,Nicobars,35,Andaman and Nicobar Islands,nicobars,normalized_name,1.000
+35,Andaman and Nicobar Islands,3502,North & Middle Andaman,north and middle andaman,6138,EC6A_ST35_A_AND_N_ISLANDS,35,639,North  & Middle Andaman,35,Andaman and Nicobar Islands,north and middle andaman,normalized_name,1.000
+35,Andaman and Nicobar Islands,3503,South Andaman,south andaman,13270,EC6A_ST35_A_AND_N_ISLANDS,35,640,South Andaman,35,Andaman and Nicobar Islands,south andaman,normalized_name,1.000
+36,Telangana,3601,ADILABAD,adilabad,102231,EC6A_ST36_TELANGANA,28,532,Adilabad,36,Telangana,adilabad,normalized_name,1.000
+36,Telangana,3602,NIZAMABAD,nizamabad,115921,EC6A_ST36_TELANGANA,28,533,Nizamabad,36,Telangana,nizamabad,normalized_name,1.000
+36,Telangana,3603,KARIMNAGAR,karimnagar,151594,EC6A_ST36_TELANGANA,28,534,Karimnagar,36,Telangana,karimnagar,normalized_name,1.000
+36,Telangana,3604,MEDAK,medak,205435,EC6A_ST36_TELANGANA,28,535,Medak,36,Telangana,medak,normalized_name,1.000
+36,Telangana,3605,Hyderabad District,hyderabad,357729,EC6A_ST36_TELANGANA,28,536,Hyderabad,36,Telangana,hyderabad,normalized_name,1.000
+36,Telangana,3606,RANGAREDDY,rangareddy,267712,EC6A_ST36_TELANGANA,28,537,Rangareddy,36,Telangana,rangareddy,normalized_name,1.000
+36,Telangana,3607,MAHABUBNAGAR,mahbubnagar,181207,EC6A_ST36_TELANGANA,28,538,Mahbubnagar,36,Telangana,mahbubnagar,normalized_name,1.000
+36,Telangana,3608,NALGONDA,nalgonda,287628,EC6A_ST36_TELANGANA,28,539,Nalgonda,36,Telangana,nalgonda,normalized_name,1.000
+36,Telangana,3609,WARANGAL,warangal,207265,EC6A_ST36_TELANGANA,28,540,Warangal,36,Telangana,warangal,normalized_name,1.000
+36,Telangana,3610,KHAMMAM,khammam,210953,EC6A_ST36_TELANGANA,28,541,Khammam,36,Telangana,khammam,normalized_name,1.000
+37,Andhra Pradesh,3701,SRIKAKULAM,srikakulam,189401,EC6A_ST37_ANDHRA_PRADESH,28,542,Srikakulam,37,Andhra Pradesh,srikakulam,normalized_name,1.000
+37,Andhra Pradesh,3702,VIZIANAGARAM,vizianagaram,282225,EC6A_ST37_ANDHRA_PRADESH,28,543,Vizianagaram,37,Andhra Pradesh,vizianagaram,normalized_name,1.000
+37,Andhra Pradesh,3703,VISAKHAPATNAM,visakhapatnam,375941,EC6A_ST37_ANDHRA_PRADESH,28,544,Visakhapatnam,37,Andhra Pradesh,visakhapatnam,normalized_name,1.000
+37,Andhra Pradesh,3704,EAST GODAVARI,east godavari,449160,EC6A_ST37_ANDHRA_PRADESH,28,545,East Godavari,37,Andhra Pradesh,east godavari,normalized_name,1.000
+37,Andhra Pradesh,3705,WEST GODAVARI,west godavari,315026,EC6A_ST37_ANDHRA_PRADESH,28,546,West Godavari,37,Andhra Pradesh,west godavari,normalized_name,1.000
+37,Andhra Pradesh,3706,KRISHNA,krishna,398884,EC6A_ST37_ANDHRA_PRADESH,28,547,Krishna,37,Andhra Pradesh,krishna,normalized_name,1.000
+37,Andhra Pradesh,3707,GUNTUR,guntur,399740,EC6A_ST37_ANDHRA_PRADESH,28,548,Guntur,37,Andhra Pradesh,guntur,normalized_name,1.000
+37,Andhra Pradesh,3708,PRAKASAM,prakasam,372769,EC6A_ST37_ANDHRA_PRADESH,28,549,Prakasam,37,Andhra Pradesh,prakasam,normalized_name,1.000
+37,Andhra Pradesh,3709,NELLORE,sri potti sriramulu nellore,299862,EC6A_ST37_ANDHRA_PRADESH,28,550,Sri Potti Sriramulu Nellore,37,Andhra Pradesh,sri potti sriramulu nellore,normalized_name,1.000
+37,Andhra Pradesh,3710,KADAPA,kadapa,196351,EC6A_ST37_ANDHRA_PRADESH,28,551,Y.S.R.,37,Andhra Pradesh,kadapa,normalized_name,1.000
+37,Andhra Pradesh,3711,KURNOOL,kurnool,224181,EC6A_ST37_ANDHRA_PRADESH,28,552,Kurnool,37,Andhra Pradesh,kurnool,normalized_name,1.000
+37,Andhra Pradesh,3712,ANANTHAPUR,anantapur,305775,EC6A_ST37_ANDHRA_PRADESH,28,553,Anantapur,37,Andhra Pradesh,anantapur,normalized_name,1.000
+37,Andhra Pradesh,3713,CHITTOOR,chittoor,433442,EC6A_ST37_ANDHRA_PRADESH,28,554,Chittoor,37,Andhra Pradesh,chittoor,normalized_name,1.000

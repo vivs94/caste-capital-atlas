@@ -1,0 +1,8 @@
+streamlit
+pandas
+geopandas
+matplotlib
+esda
+libpysal
+plotly
+openpyxl
