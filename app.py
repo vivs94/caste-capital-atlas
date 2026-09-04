@@ -129,146 +129,146 @@ try:
                 st.info("👈 Please select your desired filters on the left and click **'Generate Map'** to run the spatial analytics.")
             elif selected_entity:
                 with st.spinner("Crunching data and rendering high-resolution maps... This may take a few seconds."):
-                    # Apply Filters
-                if map_level == "Specific NIC3 Sector":
-                    nic_code = selected_entity.split(" - ")[0]
-                    sub = df[df['NIC3'] == nic_code].copy()
-                else:
-                    sub = df[df['sociological_category'] == selected_entity].copy()
+                        # Apply Filters
+                    if map_level == "Specific NIC3 Sector":
+                        nic_code = selected_entity.split(" - ")[0]
+                        sub = df[df['NIC3'] == nic_code].copy()
+                    else:
+                        sub = df[df['sociological_category'] == selected_entity].copy()
                     
-                if sel_sector == "Rural Only": sub = sub[sub['SECTOR'] == '1']
-                if sel_sector == "Urban Only": sub = sub[sub['SECTOR'] == '2']
-                if sel_scale == "Directory Only (>= 10 Workers)": sub = sub[sub['is_directory'] == 1]
+                    if sel_sector == "Rural Only": sub = sub[sub['SECTOR'] == '1']
+                    if sel_sector == "Urban Only": sub = sub[sub['SECTOR'] == '2']
+                    if sel_scale == "Directory Only (>= 10 Workers)": sub = sub[sub['is_directory'] == 1]
                 
-                # Pivot by District
-                pivoted = sub.pivot_table(index='pc11_district_id', columns='SG', values='count', aggfunc='sum', fill_value=0).reset_index()
-                pivoted = pivoted.rename(columns={'1': 'sc_count', '2': 'st_count', '3': 'obc_count', '9': 'others_count'})
-                for col in ['sc_count', 'st_count', 'obc_count', 'others_count']:
-                    if col not in pivoted.columns: pivoted[col] = 0
+                    # Pivot by District
+                    pivoted = sub.pivot_table(index='pc11_district_id', columns='SG', values='count', aggfunc='sum', fill_value=0).reset_index()
+                    pivoted = pivoted.rename(columns={'1': 'sc_count', '2': 'st_count', '3': 'obc_count', '9': 'others_count'})
+                    for col in ['sc_count', 'st_count', 'obc_count', 'others_count']:
+                        if col not in pivoted.columns: pivoted[col] = 0
                 
-                pivoted['total_coded'] = pivoted['sc_count'] + pivoted['st_count'] + pivoted['obc_count'] + pivoted['others_count']
-                pivoted = pivoted[pivoted['total_coded'] > 0]
+                    pivoted['total_coded'] = pivoted['sc_count'] + pivoted['st_count'] + pivoted['obc_count'] + pivoted['others_count']
+                    pivoted = pivoted[pivoted['total_coded'] > 0]
                 
-                pivoted['sc_own_share'] = (pivoted['sc_count'] / pivoted['total_coded']) * 100
-                pivoted['st_own_share'] = (pivoted['st_count'] / pivoted['total_coded']) * 100
-                pivoted['obc_own_share'] = (pivoted['obc_count'] / pivoted['total_coded']) * 100
-                pivoted['others_own_share'] = (pivoted['others_count'] / pivoted['total_coded']) * 100
+                    pivoted['sc_own_share'] = (pivoted['sc_count'] / pivoted['total_coded']) * 100
+                    pivoted['st_own_share'] = (pivoted['st_count'] / pivoted['total_coded']) * 100
+                    pivoted['obc_own_share'] = (pivoted['obc_count'] / pivoted['total_coded']) * 100
+                    pivoted['others_own_share'] = (pivoted['others_count'] / pivoted['total_coded']) * 100
                 
-                # Merge Demographics
-                merged = pivoted.merge(census, on='pc11_district_id', how='left')
-                merged['SCPI'] = np.where(merged['sc_pop_share_dist'] > 0, merged['sc_own_share'] / merged['sc_pop_share_dist'], 0)
-                merged['STPI'] = np.where(merged['st_pop_share_dist'] > 0, merged['st_own_share'] / merged['st_pop_share_dist'], 0)
+                    # Merge Demographics
+                    merged = pivoted.merge(census, on='pc11_district_id', how='left')
+                    merged['SCPI'] = np.where(merged['sc_pop_share_dist'] > 0, merged['sc_own_share'] / merged['sc_pop_share_dist'], 0)
+                    merged['STPI'] = np.where(merged['st_pop_share_dist'] > 0, merged['st_own_share'] / merged['st_pop_share_dist'], 0)
                 
-                # Approximations for OBC/Others since we don't have district level
-                merged['OBCPI'] = merged['obc_own_share'] / 45.0
-                merged['OtherPI'] = merged['others_own_share'] / 30.0
+                    # Approximations for OBC/Others since we don't have district level
+                    merged['OBCPI'] = merged['obc_own_share'] / 45.0
+                    merged['OtherPI'] = merged['others_own_share'] / 30.0
                 
-                st.write(f"### {group} Representation: {selected_entity}")
-                st.write(f"Total Establishments matching criteria: **{pivoted['total_coded'].sum():,}**")
+                    st.write(f"### {group} Representation: {selected_entity}")
+                    st.write(f"Total Establishments matching criteria: **{pivoted['total_coded'].sum():,}**")
                 
-                map_df = gdf.merge(merged, left_on=dist_col, right_on='pc11_district_id', how='left')
-                map_df[pi_col] = map_df[pi_col].fillna(0)
+                    map_df = gdf.merge(merged, left_on=dist_col, right_on='pc11_district_id', how='left')
+                    map_df[pi_col] = map_df[pi_col].fillna(0)
                 
-                # Merge Demographic Overlay
-                if overlay_var != "None":
-                    dem_path = os.path.join(os.path.dirname(__file__), 'data', 'india_census2011_demographics_pc11_district.csv')
-                    dem_df = pd.read_csv(dem_path, dtype=str)
-                    dem_df['pc11_district_id'] = dem_df['pc11_district_id'].str.zfill(3)
-                    dem_df['urbanization_rate'] = pd.to_numeric(dem_df['urbanization_rate'], errors='coerce')
-                    dem_df['literacy_rate'] = pd.to_numeric(dem_df['literacy_rate'], errors='coerce')
-                    map_df = map_df.merge(dem_df, left_on=dist_col, right_on='pc11_district_id', how='left')
+                    # Merge Demographic Overlay
+                    if overlay_var != "None":
+                        dem_path = os.path.join(os.path.dirname(__file__), 'data', 'india_census2011_demographics_pc11_district.csv')
+                        dem_df = pd.read_csv(dem_path, dtype=str)
+                        dem_df['pc11_district_id'] = dem_df['pc11_district_id'].str.zfill(3)
+                        dem_df['urbanization_rate'] = pd.to_numeric(dem_df['urbanization_rate'], errors='coerce')
+                        dem_df['literacy_rate'] = pd.to_numeric(dem_df['literacy_rate'], errors='coerce')
+                        map_df = map_df.merge(dem_df, left_on=dist_col, right_on='pc11_district_id', how='left')
                 
-                use_interactive = st.checkbox("Enable Interactive Hover Map (Slightly slower to load)", value=False)
+                    use_interactive = st.checkbox("Enable Interactive Hover Map (Slightly slower to load)", value=False)
                 
-                export_name = selected_entity.split(" - ")[0].replace("/", "_").replace(" ", "_").lower()
+                    export_name = selected_entity.split(" - ")[0].replace("/", "_").replace(" ", "_").lower()
                 
-                if use_interactive:
-                    import plotly.express as px
-                    st.write("*Interactive Mode Enabled. Hover over districts to see data.*")
+                    if use_interactive:
+                        import plotly.express as px
+                        st.write("*Interactive Mode Enabled. Hover over districts to see data.*")
                     
-                    # Convert to geographic coordinate system for Plotly Mapbox
-                    try:
-                        map_df_wgs = map_df.to_crs(epsg=4326)
+                        # Convert to geographic coordinate system for Plotly Mapbox
+                        try:
+                            map_df_wgs = map_df.to_crs(epsg=4326)
                         
-                        fig_inter = px.choropleth_map(map_df_wgs, geojson=map_df_wgs.geometry, locations=map_df_wgs.index, 
-                                                         color=pi_col,
-                                                         hover_name="pc11_district_name",
-                                                         hover_data={"map_state_name": True, pi_col: True},
-                                                         color_continuous_scale="Blues",
-                                                         range_color=[0, 3.0],
-                                                         map_style="carto-positron",
-                                                         zoom=3.5, center = {"lat": 22.0, "lon": 78.0},
-                                                         opacity=0.7,
-                                                         title=f"{group} Representation: {selected_entity}")
-                        fig_inter.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
-                        st.plotly_chart(fig_inter, width="stretch")
-                    except Exception as e:
-                        st.error(f"Could not render interactive map: {e}")
+                            fig_inter = px.choropleth_map(map_df_wgs, geojson=map_df_wgs.geometry, locations=map_df_wgs.index, 
+                                                             color=pi_col,
+                                                             hover_name="pc11_district_name",
+                                                             hover_data={"map_state_name": True, pi_col: True},
+                                                             color_continuous_scale="Blues",
+                                                             range_color=[0, 3.0],
+                                                             map_style="carto-positron",
+                                                             zoom=3.5, center = {"lat": 22.0, "lon": 78.0},
+                                                             opacity=0.7,
+                                                             title=f"{group} Representation: {selected_entity}")
+                            fig_inter.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
+                            st.plotly_chart(fig_inter, width="stretch")
+                        except Exception as e:
+                            st.error(f"Could not render interactive map: {e}")
                 
-                # Always generate static map for downloading and LISA
-                num_plots = 2 if overlay_var != "None" else 1
-                fig, axes = plt.subplots(1, num_plots, figsize=(12 * num_plots, 10))
-                ax1 = axes[0] if num_plots > 1 else axes
+                    # Always generate static map for downloading and LISA
+                    num_plots = 2 if overlay_var != "None" else 1
+                    fig, axes = plt.subplots(1, num_plots, figsize=(12 * num_plots, 10))
+                    ax1 = axes[0] if num_plots > 1 else axes
                 
-                if use_lisa and HAS_ESDA:
-                    # LISA Logic
-                    map_df['lisa_val'] = map_df[pi_col].fillna(0)
-                    clean_map = map_df[~map_df.geometry.is_empty & map_df.geometry.notna()].copy()
-                    clean_map = clean_map.reset_index(drop=True)
+                    if use_lisa and HAS_ESDA:
+                        # LISA Logic
+                        map_df['lisa_val'] = map_df[pi_col].fillna(0)
+                        clean_map = map_df[~map_df.geometry.is_empty & map_df.geometry.notna()].copy()
+                        clean_map = clean_map.reset_index(drop=True)
                     
-                    if len(clean_map) > 0:
-                        w = Queen.from_dataframe(clean_map)
-                        w.transform = 'r'
-                        lisa = Moran_Local(clean_map['lisa_val'].values, w)
+                        if len(clean_map) > 0:
+                            w = Queen.from_dataframe(clean_map)
+                            w.transform = 'r'
+                            lisa = Moran_Local(clean_map['lisa_val'].values, w)
                         
-                        spots = ['None', 'High-High (Cluster)', 'Low-High (Outlier)', 'Low-Low (Cluster)', 'High-Low (Outlier)']
-                        colors_list = ['lightgrey', 'red', 'lightblue', 'blue', 'pink']
-                        cmap_lisa = colors.ListedColormap(colors_list)
+                            spots = ['None', 'High-High (Cluster)', 'Low-High (Outlier)', 'Low-Low (Cluster)', 'High-Low (Outlier)']
+                            colors_list = ['lightgrey', 'red', 'lightblue', 'blue', 'pink']
+                            cmap_lisa = colors.ListedColormap(colors_list)
                         
-                        sig = 1 * (lisa.p_sim < 0.05)
-                        hotspots = sig * lisa.q
-                        clean_map['spot'] = hotspots
+                            sig = 1 * (lisa.p_sim < 0.05)
+                            hotspots = sig * lisa.q
+                            clean_map['spot'] = hotspots
                         
-                        clean_map.plot(column='spot', cmap=cmap_lisa, categorical=True, ax=ax1, edgecolor='black', linewidth=0.1)
+                            clean_map.plot(column='spot', cmap=cmap_lisa, categorical=True, ax=ax1, edgecolor='black', linewidth=0.1)
+                            import textwrap
+                            wrapped_title = "\n".join(textwrap.wrap(f"LISA Spatial Clusters: {group} in {selected_entity}", width=50))
+                            ax1.set_title(f"{wrapped_title}\n({sel_scale} | {sel_sector})", fontsize=14)
+                            st.write("*Note: Red shows High-High clusters (Statistically significant continuous regional monopolies).*")
+                    else:
+                        cmap_map = {"SC": "Reds", "ST": "Oranges", "OBC": "Greens", "Others": "Blues"}
+                        map_df.plot(column=pi_col, ax=ax1, cmap=cmap_map[group], legend=True,
+                                    legend_kwds={'label': f'{group} Participation Index (PI)', 'shrink': 0.6},
+                                    vmax=3.0, edgecolor='black', linewidth=0.1)
+                    
                         import textwrap
-                        wrapped_title = "\n".join(textwrap.wrap(f"LISA Spatial Clusters: {group} in {selected_entity}", width=50))
+                        wrapped_title = "\n".join(textwrap.wrap(f"{group} Ownership: {selected_entity}", width=50))
                         ax1.set_title(f"{wrapped_title}\n({sel_scale} | {sel_sector})", fontsize=14)
-                        st.write("*Note: Red shows High-High clusters (Statistically significant continuous regional monopolies).*")
-                else:
-                    cmap_map = {"SC": "Reds", "ST": "Oranges", "OBC": "Greens", "Others": "Blues"}
-                    map_df.plot(column=pi_col, ax=ax1, cmap=cmap_map[group], legend=True,
-                                legend_kwds={'label': f'{group} Participation Index (PI)', 'shrink': 0.6},
-                                vmax=3.0, edgecolor='black', linewidth=0.1)
-                    
-                    import textwrap
-                    wrapped_title = "\n".join(textwrap.wrap(f"{group} Ownership: {selected_entity}", width=50))
-                    ax1.set_title(f"{wrapped_title}\n({sel_scale} | {sel_sector})", fontsize=14)
                 
-                ax1.axis('off')
+                    ax1.axis('off')
                 
-                # Plot Demographic Overlay if selected
-                if overlay_var != "None":
-                    ax2 = axes[1]
-                    dem_col = 'urbanization_rate' if overlay_var == "Urbanization Rate (%)" else 'literacy_rate'
-                    map_df.plot(column=dem_col, ax=ax2, cmap="Purples", legend=True,
-                                legend_kwds={'label': overlay_var, 'shrink': 0.6},
-                                edgecolor='black', linewidth=0.1)
-                    ax2.set_title(f"Overlay: {overlay_var}", fontsize=14)
-                    ax2.axis('off')
+                    # Plot Demographic Overlay if selected
+                    if overlay_var != "None":
+                        ax2 = axes[1]
+                        dem_col = 'urbanization_rate' if overlay_var == "Urbanization Rate (%)" else 'literacy_rate'
+                        map_df.plot(column=dem_col, ax=ax2, cmap="Purples", legend=True,
+                                    legend_kwds={'label': overlay_var, 'shrink': 0.6},
+                                    edgecolor='black', linewidth=0.1)
+                        ax2.set_title(f"Overlay: {overlay_var}", fontsize=14)
+                        ax2.axis('off')
                 
-                st.pyplot(fig)
+                    st.pyplot(fig)
                 
-                # Download Button
-                buf = io.BytesIO()
-                fig.savefig(buf, format="png", dpi=300, bbox_inches="tight")
-                st.download_button(
-                    label="Download High-Res Map",
-                    data=buf.getvalue(),
-                    file_name=f"map_{group}_{export_name}.png",
-                    mime="image/png"
-                )
+                    # Download Button
+                    buf = io.BytesIO()
+                    fig.savefig(buf, format="png", dpi=300, bbox_inches="tight")
+                    st.download_button(
+                        label="Download High-Res Map",
+                        data=buf.getvalue(),
+                        file_name=f"map_{group}_{export_name}.png",
+                        mime="image/png"
+                    )
     
-    # ---------------------------------------------------------
+        # ---------------------------------------------------------
     # TAB 2: RANKINGS
     # ---------------------------------------------------------
     with tab2:
