@@ -34,9 +34,10 @@ def classify_sociological(nic3):
 def load_base_data():
     base = os.path.dirname(__file__)
     granular_path = os.path.join(base, 'data', 'india_ec6_district_nic3_expanded_granular.csv.gz')
-    df = pd.read_csv(granular_path, dtype={'pc11_state_id': str, 'pc11_district_id': str, 'NIC3': str, 'SG': str, 'SECTOR': str})
-    df['pc11_district_id'] = df['pc11_district_id'].str.zfill(3)
-    df['NIC3'] = df['NIC3'].str.zfill(3)
+    df = pd.read_csv(granular_path, dtype={'pc11_state_id': 'category', 'pc11_district_id': 'category', 'NIC3': 'category', 'SG': 'category', 'SECTOR': 'category'})
+    df['count'] = pd.to_numeric(df['count'], downcast='integer')
+    df['pc11_district_id'] = df['pc11_district_id'].astype(str).str.zfill(3).astype('category')
+    df['NIC3'] = df['NIC3'].astype(str).str.zfill(3).astype('category')
     
     cw_path = os.path.join(base, 'data', 'india_ec6_nic3_typology_crosswalk.csv')
     cw = pd.read_csv(cw_path, dtype=str)
@@ -172,12 +173,14 @@ try:
                     # Convert to geographic coordinate system for Plotly Mapbox
                     try:
                         map_df_wgs = map_df.to_crs(epsg=4326)
+                        # Simplify geometry to drastically reduce GeoJSON memory payload
+                        map_df_wgs['geometry'] = map_df_wgs['geometry'].simplify(tolerance=0.02, preserve_topology=True)
                         
                         fig_inter = px.choropleth_map(map_df_wgs, geojson=map_df_wgs.geometry, locations=map_df_wgs.index, 
                                                          color=pi_col,
                                                          hover_name="pc11_district_name",
                                                          hover_data={"map_state_name": True, pi_col: True},
-                                                         color_continuous_scale="Viridis",
+                                                         color_continuous_scale="Blues",
                                                          map_style="carto-positron",
                                                          zoom=3.5, center = {"lat": 22.0, "lon": 78.0},
                                                          opacity=0.7,
