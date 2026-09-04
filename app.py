@@ -69,6 +69,16 @@ def load_base_data():
 
 st.title("EC6 Caste & Capital Atlas: Ultimate Analytics")
 
+with st.expander("📖 **About this Atlas (Click to read)**", expanded=False):
+    st.markdown("""
+    **Welcome to the Caste & Capital Atlas.** This interactive dashboard maps the deeply stratified landscape of business ownership across India using the Sixth Economic Census (EC6).
+    
+    **How to read the data:**
+    * **Participation Index (PI):** We measure representation using a Participation Index *(Ownership Share ÷ Demographic Population Share)*. A PI of `1.0` means exact parity. A PI of `2.0` means a group owns twice as many businesses as their population share would predict.
+    * **The Scale Penalty:** By default, the map shows *all* businesses (including tiny street vendors and single-person stalls). Toggle the **Scale Penalty** to *"Directory Only (>= 10 Workers)"* to see who actually controls larger, formal capital.
+    * **LISA Spatial Hotspots:** Check the LISA box to run real-time spatial econometrics. It highlights **Red clusters** where high-ownership districts are surrounded by other high-ownership districts (continuous regional monopolies).
+    """)
+
 try:
     df, gdf, dist_col, census, cw, state_cw = load_base_data()
     
@@ -181,6 +191,7 @@ try:
                                                          hover_name="pc11_district_name",
                                                          hover_data={"map_state_name": True, pi_col: True},
                                                          color_continuous_scale="Blues",
+                                                         range_color=[0, 3.0],
                                                          map_style="carto-positron",
                                                          zoom=3.5, center = {"lat": 22.0, "lon": 78.0},
                                                          opacity=0.7,
