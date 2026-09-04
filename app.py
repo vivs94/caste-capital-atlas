@@ -56,9 +56,12 @@ def load_base_data():
     census['sc_pop_share_dist'] = pd.to_numeric(census['sc_population_share_pct'], errors='coerce')
     census['st_pop_share_dist'] = pd.to_numeric(census['st_population_share_pct'], errors='coerce')
     
-    # Load Shapefile
+    # Load Shapefile and heavily optimize memory
     shp_path = os.path.join(base, 'data', 'shrug-pc11dist-poly-shp.zip')
     gdf = gpd.read_file(f'zip://{shp_path}')
+    # CRITICAL OOM FIX: Simplify geometry before caching it in RAM
+    gdf['geometry'] = gdf['geometry'].simplify(tolerance=0.01, preserve_topology=True)
+    gdf = gdf[['pc11_d_id', 'geometry']] # Drop unneeded heavy columns
     dist_col = 'pc11_d_id'
     gdf[dist_col] = gdf[dist_col].astype(str).str.zfill(3)
     
@@ -92,38 +95,41 @@ try:
         with c1:
             st.markdown("### 1. Sector Selection")
             soc_cats = ["All"] + list(df['sociological_category'].unique())
-            sel_soc = st.selectbox("Sociological Category", soc_cats)
+            sel_soc = st.selectbox("Sociological Category", soc_cats, help="Filter the options below by a broad sociological bucket.")
             
-            map_level = st.radio("Map Level", ["Specific NIC3 Sector", "Entire Sociological Category (Aggregate)"])
+            map_level = st.radio("Map Level", ["Specific NIC3 Sector", "Entire Sociological Category (Aggregate)"], help="Choose whether to map a single specific industry, or an entire broad category combined.")
             
             if map_level == "Specific NIC3 Sector":
                 filtered_df = df.copy()
                 if sel_soc != "All": filtered_df = filtered_df[filtered_df['sociological_category'] == sel_soc]
                 nic_options = sorted(filtered_df['formatted_name'].unique()) if not filtered_df.empty else []
-                selected_entity = st.selectbox("NIC3 Sector", nic_options)
+                selected_entity = st.selectbox("NIC3 Sector", nic_options, help="Select the exact NIC 3-digit economic activity.")
             else:
                 cat_options = [c for c in soc_cats if c != "All"]
-                # Default to selected category if not 'All'
                 default_idx = cat_options.index(sel_soc) if sel_soc in cat_options else 0
-                selected_entity = st.selectbox("Select Sociological Category to Aggregate", cat_options, index=default_idx)
+                selected_entity = st.selectbox("Select Sociological Category to Aggregate", cat_options, index=default_idx, help="This will combine all NIC3 sectors within this bucket and map their total capital footprint.")
             
-            group = st.selectbox("Social Group", ["SC", "ST", "OBC", "Others"])
+            group = st.selectbox("Social Group", ["SC", "ST", "OBC", "Others"], help="Select which social group's Participation Index to map.")
             pi_col_map = {"SC": "SCPI", "ST": "STPI", "OBC": "OBCPI", "Others": "OtherPI"}
             pi_col = pi_col_map[group]
             
             st.markdown("### 2. Market Filters")
-            sel_sector = st.radio("Rural / Urban", ["Both", "Rural Only", "Urban Only"])
-            sel_scale = st.radio("Scale Penalty", ["All Establishments", "Directory Only (>= 10 Workers)"])
+            sel_sector = st.radio("Rural / Urban", ["Both", "Rural Only", "Urban Only"], help="Isolate the map to only show businesses located in rural villages or urban cities.")
+            sel_scale = st.radio("Scale Penalty", ["All Establishments", "Directory Only (>= 10 Workers)"], help="Filter out micro-enterprises. 'Directory Only' forces the map to only calculate ownership for businesses with 10 or more workers.")
             
             st.markdown("### 3. Spatial Analytics")
-            use_lisa = st.checkbox("Highlight LISA Hotspots", help="Colors only districts that form a statistically significant cluster of high/low ownership.")
+            use_lisa = st.checkbox("Highlight LISA Hotspots", help="Runs a Local Moran's I spatial regression. Colors only districts that form a statistically significant cluster of continuous monopolies (High-High).")
+            overlay_var = st.selectbox("Demographic Overlay", ["None", "Urbanization Rate (%)", "Literacy Rate (%)"], help="Plot a demographic variable side-by-side to visually compare spatial correlations.")
             
-            overlay_var = st.selectbox("Demographic Overlay", ["None", "Urbanization Rate (%)", "Literacy Rate (%)"], help="Plot a demographic variable side-by-side to compare spatial correlations.")
+            st.markdown("---")
+            generate_btn = st.button("🚀 Generate Map", type="primary", use_container_width=True)
             
         with c2:
-            if selected_entity:
-                
-                # Apply Filters
+            if not generate_btn:
+                st.info("👈 Please select your desired filters on the left and click **'Generate Map'** to run the spatial analytics.")
+            elif selected_entity:
+                with st.spinner("Crunching data and rendering high-resolution maps... This may take a few seconds."):
+                    # Apply Filters
                 if map_level == "Specific NIC3 Sector":
                     nic_code = selected_entity.split(" - ")[0]
                     sub = df[df['NIC3'] == nic_code].copy()
@@ -183,8 +189,6 @@ try:
                     # Convert to geographic coordinate system for Plotly Mapbox
                     try:
                         map_df_wgs = map_df.to_crs(epsg=4326)
-                        # Simplify geometry to drastically reduce GeoJSON memory payload
-                        map_df_wgs['geometry'] = map_df_wgs['geometry'].simplify(tolerance=0.02, preserve_topology=True)
                         
                         fig_inter = px.choropleth_map(map_df_wgs, geojson=map_df_wgs.geometry, locations=map_df_wgs.index, 
                                                          color=pi_col,
