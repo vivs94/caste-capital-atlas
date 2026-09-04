@@ -183,7 +183,7 @@ try:
                                                          opacity=0.7,
                                                          title=f"{group} Representation: {selected_entity}")
                         fig_inter.update_layout(margin={"r":0,"t":40,"l":0,"b":0})
-                        st.plotly_chart(fig_inter, use_container_width=True)
+                        st.plotly_chart(fig_inter, width="stretch")
                     except Exception as e:
                         st.error(f"Could not render interactive map: {e}")
                 
